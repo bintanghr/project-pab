@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Administrasi UNS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="informasi_keuangan">Informasi Keuangan</string>
+    <string name="foto_fakultas">foto fakultas</string>
+    <string name="fakultas">Fakultas</string>
+
+    <string-array name="faculty_name">
+        <item>Fakultas Ilmu Budaya</item>
+        <item>Fakultas Hukum</item>
+        <item>Fakultas Ekonomi dan Bisnis</item>
+        <item>Fakultas Ilmu Sosial dan Politik</item>
+        <item>Fakultas Kedokteran</item>
+        <item>Fakultas Pertanian</item>
+        <item>Fakultas Teknik</item>
+        <item>Fakultas Keguruan dan Ilmu Pendidikan</item>
+        <item>Fakultas Matematika dan IPA</item>
+        <item>Fakultas Seni Rupa dan Desain</item>
+        <item>Fakultas Keolahragaan</item>
+        <item>Fakultas Teknologi Informasi dan Sains Data</item>
+        <item>Fakultas Psikologi</item>
+        <item>Sekolah Vokasi</item>
+    </string-array>
+
+    <string-array name="total_major">
+        <item>6</item>
+        <item>7</item>
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+        <item>7</item>
+        <item>7</item>
+        <item>25</item>
+        <item>7</item>
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>27</item>
+    </string-array>
+
+    <string-array name="faculty_description">
+        <item><![CDATA[Fakultas ini menawarkan program studi dalam bidang ilmu-ilmu budaya, termasuk sastra, sejarah, dan antropologi. Mahasiswa belajar tentang berbagai aspek kebudayaan, bahasa, dan kesenian dari berbagai bangsa dan zaman.]]></item>
+        <item><![CDATA[Fakultas ini menyediakan pendidikan dalam bidang hukum. Mahasiswa belajar tentang sistem hukum, perundang-undangan, dan berbagai bidang hukum seperti hukum pidana, perdata, dan internasional.]]></item>
+        <item><![CDATA[Fakultas ini fokus pada pendidikan di bidang ekonomi dan bisnis, mencakup akuntansi, manajemen, ekonomi pembangunan, dan kewirausahaan. Mahasiswa dibekali dengan pengetahuan dan keterampilan untuk mengelola bisnis dan memahami dinamika ekonomi.]]></item>
+        <item><![CDATA[Fakultas ini mempelajari berbagai disiplin ilmu sosial dan politik, seperti sosiologi, ilmu komunikasi, ilmu politik, hubungan internasional, dan administrasi publik. Mahasiswa diajarkan untuk memahami dan menganalisis fenomena sosial dan politik.]]></item>
+        <item><![CDATA[Fakultas ini menawarkan pendidikan kedokteran untuk menghasilkan dokter yang kompeten. Mahasiswa mempelajari ilmu dasar kedokteran, klinis, dan praktik langsung di rumah sakit untuk memperoleh pengalaman langsung dalam menangani pasien.]]></item>
+        <item><![CDATA[Fakultas ini fokus pada bidang pertanian, termasuk agronomi, agribisnis, ilmu tanah, dan teknologi pertanian. Mahasiswa belajar tentang cara-cara meningkatkan produktivitas pertanian dan pengelolaan sumber daya alam.]]></item>
+        <item><![CDATA[Fakultas ini menyediakan pendidikan di berbagai bidang teknik, seperti teknik sipil, teknik mesin, teknik elektro, dan teknik industri. Mahasiswa dilatih untuk menjadi insinyur yang mampu merancang, mengembangkan, dan memelihara sistem teknologi.]]></item>
+        <item><![CDATA[Fakultas ini mempersiapkan mahasiswa untuk menjadi guru dan pendidik profesional. Program studi mencakup pendidikan dasar, pendidikan menengah, serta pendidikan khusus. Mahasiswa belajar teori dan praktik pengajaran serta metode pendidikan terbaru.]]></item>
+        <item><![CDATA[Fakultas ini menawarkan program studi dalam bidang matematika, fisika, kimia, dan biologi. Mahasiswa mempelajari teori dan aplikasi dari masing-masing bidang untuk mengembangkan pengetahuan dan keterampilan dalam ilmu pengetahuan alam.]]></item>
+        <item><![CDATA[Fakultas ini mempelajari seni rupa dan desain, termasuk seni lukis, seni patung, desain grafis, dan desain produk. Mahasiswa diajarkan teknik-teknik kreatif dan inovatif untuk menghasilkan karya seni dan desain yang berkualitas.]]></item>
+        <item><![CDATA[Fakultas ini menyediakan program studi yang berfokus pada ilmu keolahragaan, termasuk pendidikan jasmani, ilmu olahraga, dan manajemen olahraga. Mahasiswa belajar tentang kesehatan, kebugaran, dan pengembangan prestasi olahraga.]]></item>
+        <item><![CDATA[Fakultas ini menawarkan pendidikan di bidang teknologi informasi dan ilmu data. Program studi mencakup pemrograman, analisis data, kecerdasan buatan, dan keamanan siber. Mahasiswa belajar untuk mengembangkan solusi teknologi dan menganalisis data besar.]]></item>
+        <item><![CDATA[Fakultas ini mempelajari psikologi, termasuk psikologi klinis, psikologi perkembangan, psikologi sosial, dan psikologi pendidikan. Mahasiswa diajarkan teori dan praktik untuk memahami perilaku manusia dan proses mental.]]></item>
+        <item><![CDATA[Sekolah Vokasi menawarkan program pendidikan yang lebih aplikatif dan berorientasi pada keterampilan praktis. Program studi mencakup berbagai bidang teknis dan profesional, seperti teknik mesin, pariwisata, dan keperawatan.]]></item>
+    </string-array>
+
+    <string-array name="nama_informasi_pengeluaran">
+        <item>Espresso</item>
+        <item>Americano</item>
+        <item>Latte</item>
+        <item>Cappuccino</item>
+        <item>Mocha</item>
+        <item>Macchiato</item>
+        <item>Flat White</item>
+        <item>Affogato</item>
+        <item>Frappuccino</item>
+        <item>Long Black</item>
+    </string-array>
+
+    <string-array name="nominal_pengeluaran">
+        <item>20.000</item>
+        <item>25.000</item>
+        <item>35.000</item>
+        <item>32.000</item>
+        <item>30.000</item>
+        <item>37.000</item>
+        <item>33.000</item>
+        <item>34.000</item>
+        <item>35.000</item>
+        <item>25.000</item>
+    </string-array>
+
+    <string-array name="deskripsi_pengeluaran">
+        <item><![CDATA[Minuman kopi klasik yang diseduh dengan mengekstrak kopi dengan air panas di bawah tekanan tinggi. Memiliki rasa yang kental dan kuat.]]></item>
+        <item><![CDATA[Espresso yang dicampur dengan air panas. Memiliki rasa yang lebih ringan dibandingkan espresso.]]></item>
+        <item><![CDATA[Campuran espresso dengan susu panas dan sedikit busa susu di atasnya. Memiliki rasa yang lembut dan creamy.]]></item>
+        <item><![CDATA[Campuran espresso dengan susu panas dan banyak busa susu di atasnya. Memiliki rasa yang creamy dan tekstur yang lebih ringan dibandingkan latte.]]></item>
+        <item><![CDATA[Campuran espresso dengan susu panas, cokelat, dan kadang-kadang ditambahkan dengan whipped cream di atasnya. Memiliki rasa yang manis dan cokelat.]]></item>
+        <item><![CDATA[Espresso dengan sedikit susu atau busa susu di atasnya. Memiliki rasa yang kuat dengan sentuhan susu.]]></item>
+        <item><![CDATA[Campuran espresso dengan susu panas, tetapi dengan lebih sedikit busa susu daripada cappuccino. Memiliki rasa yang kaya dan lembut.]]></item>
+        <item><![CDATA[Scoop es krim vanilla yang disiram dengan shot espresso panas di atasnya. Menggabungkan rasa kopi yang kuat dengan manisnya es krim.]]></item>
+        <item><![CDATA[Minuman kopi dingin yang dibuat dengan mencampur espresso atau kopi dengan es, susu, sirup, dan kadang-kadang ditambahkan dengan whipped cream di atasnya. Biasanya memiliki rasa yang manis dan segar.]]></item>
+        <item><![CDATA[Mirip dengan Americano, tetapi espresso dituangkan di atas air panas. Ini mempertahankan krema dari espresso dengan menambahkan air panas di bawahnya.]]></item>
+    </string-array>
+
+    <string-array name="nama_informasi_pemasukan">
+        <item>UKT Mahasiswa</item>
+        <item>SPI Mahasiswa</item>
+        <item>Sponsor</item>
+        <item>Kerjasama</item>
+        <item>Donatur Alumni</item>
+        <item>Persewaan Aset</item>
+        <item>Pemerintahan</item>
+        <item>Hibah Penelitian</item>
+        <item>Penyelenggaraan Seminar</item>
+        <item>Penerbitan Buku</item>
+    </string-array>
+
+    <string-array name="nominal_pemasukan">
+        <item>20.000.000.000</item>
+        <item>35.000.000.000</item>
+        <item>820.000.000</item>
+        <item>1.500.000.000</item>
+        <item>750.000.000</item>
+        <item>250.000.000</item>
+        <item>980.000.000</item>
+        <item>345.000.000</item>
+        <item>145.000.000</item>
+        <item>830.000.000</item>
+    </string-array>
+
+    <string-array name="deskripsi_pemasukan">
+        <item><![CDATA[Minuman kopi klasik yang diseduh dengan mengekstrak kopi dengan air panas di bawah tekanan tinggi. Memiliki rasa yang kental dan kuat.]]></item>
+        <item><![CDATA[Espresso yang dicampur dengan air panas. Memiliki rasa yang lebih ringan dibandingkan espresso.]]></item>
+        <item><![CDATA[Campuran espresso dengan susu panas dan sedikit busa susu di atasnya. Memiliki rasa yang lembut dan creamy.]]></item>
+        <item><![CDATA[Campuran espresso dengan susu panas dan banyak busa susu di atasnya. Memiliki rasa yang creamy dan tekstur yang lebih ringan dibandingkan latte.]]></item>
+        <item><![CDATA[Campuran espresso dengan susu panas, cokelat, dan kadang-kadang ditambahkan dengan whipped cream di atasnya. Memiliki rasa yang manis dan cokelat.]]></item>
+        <item><![CDATA[Espresso dengan sedikit susu atau busa susu di atasnya. Memiliki rasa yang kuat dengan sentuhan susu.]]></item>
+        <item><![CDATA[Campuran espresso dengan susu panas, tetapi dengan lebih sedikit busa susu daripada cappuccino. Memiliki rasa yang kaya dan lembut.]]></item>
+        <item><![CDATA[Scoop es krim vanilla yang disiram dengan shot espresso panas di atasnya. Menggabungkan rasa kopi yang kuat dengan manisnya es krim.]]></item>
+        <item><![CDATA[Minuman kopi dingin yang dibuat dengan mencampur espresso atau kopi dengan es, susu, sirup, dan kadang-kadang ditambahkan dengan whipped cream di atasnya. Biasanya memiliki rasa yang manis dan segar.]]></item>
+        <item><![CDATA[Mirip dengan Americano, tetapi espresso dituangkan di atas air panas. Ini mempertahankan krema dari espresso dengan menambahkan air panas di bawahnya.]]></item>
+    </string-array>
+</resources>
