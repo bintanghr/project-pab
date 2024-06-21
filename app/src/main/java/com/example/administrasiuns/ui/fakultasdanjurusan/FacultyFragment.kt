@@ -29,12 +29,12 @@ class FacultyFragment : Fragment() {
 
     private fun getInformasiPemasukanList() : ArrayList<Faculty> {
         val dataName = resources.getStringArray(R.array.faculty_name)
-        val dataPrice = resources.getStringArray(R.array.total_major)
+        val dataTotalMajor = resources.getStringArray(R.array.total_major)
         val dataDesc = resources.getStringArray(R.array.faculty_description)
-//        val dataImg = resources.obtainTypedArray(R.array.food_img)
+        val dataImg = resources.obtainTypedArray(R.array.faculty_img)
         val facultyList = ArrayList<Faculty>()
         for (i in dataName.indices) {
-            val faculty = Faculty(dataName[i], dataPrice[i], dataDesc[i])
+            val faculty = Faculty(dataName[i], dataTotalMajor[i], dataDesc[i], dataImg.getResourceId(i, -1))
             facultyList.add(faculty)
         }
         return facultyList

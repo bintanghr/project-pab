@@ -15,6 +15,27 @@
     <string name="informasi_keuangan">Informasi Keuangan</string>
     <string name="foto_fakultas">foto fakultas</string>
     <string name="fakultas">Fakultas</string>
+    <string name="faculty_name">Faculty Name</string>
+    <string name="x_major">x major</string>
+    <string name="description">description</string>
+    <string name="lorem_ipsum_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam vitae leo nec viverra. Aliquam erat volutpat. Phasellus ultricies feugiat neque nec sollicitudin. Vestibulum vel massa feugiat, tempus nulla ut, gravida magna. In ut sem tincidunt, suscipit metus vitae, consequat eros. Duis porta sapien lorem, ac interdum dolor sollicitudin ullamcorper. Nam semper a mauris ut accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc massa, blandit vel quam id, molestie commodo neque. Quisque sed tempor libero, eu molestie ante. Praesent risus lorem, congue non mollis sed, venenatis vitae odio. Etiam eget lacus id sem pellentesque imperdiet sed in urna. Praesent mattis ullamcorper tempor.</string>
+
+    <string-array name="faculty_img">
+        <item>@drawable/fib</item>
+        <item>@drawable/fh</item>
+        <item>@drawable/feb</item>
+        <item>@drawable/fisip</item>
+        <item>@drawable/fk</item>
+        <item>@drawable/fp</item>
+        <item>@drawable/ft</item>
+        <item>@drawable/fkip</item>
+        <item>@drawable/fmipa</item>
+        <item>@drawable/fsrd</item>
+        <item>@drawable/fkor</item>
+        <item>@drawable/ftisd</item>
+        <item>@drawable/fpsi</item>
+        <item>@drawable/sv</item>
+    </string-array>
 
     <string-array name="faculty_name">
         <item>Fakultas Ilmu Budaya</item>

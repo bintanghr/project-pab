@@ -7,5 +7,6 @@ import kotlinx.parcelize.Parcelize
 data class Faculty(
     val namaInformasi: String,
     val nominal: String,
-    val deskripsi: String
+    val deskripsi: String,
+    val img: Int
 ) : Parcelable
