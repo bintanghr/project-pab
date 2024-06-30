@@ -165,4 +165,22 @@
         <item><![CDATA[Minuman kopi dingin yang dibuat dengan mencampur espresso atau kopi dengan es, susu, sirup, dan kadang-kadang ditambahkan dengan whipped cream di atasnya. Biasanya memiliki rasa yang manis dan segar.]]></item>
         <item><![CDATA[Mirip dengan Americano, tetapi espresso dituangkan di atas air panas. Ini mempertahankan krema dari espresso dengan menambahkan air panas di bawahnya.]]></item>
     </string-array>
+
+    <!--    REGISTRASI  -->
+    <string name="pendaftaran_dan_registrasi">Pendaftaran dan Registrasi</string>
+    <string name="waktu_pendaftaran">Waktu Pendaftaran</string>
+    <string name="pendaftaran_mahasiswa_baru_untuk_semester_ganjil_dimulai_pada_bulan_april_dan_berakhir_pada_bulan_juli">Pendaftaran mahasiswa baru untuk semester ganjil dimulai pada bulan April dan berakhir pada bulan Juli.</string>
+    <string name="syarat_pendaftaran">Syarat Pendaftaran</string>
+    <string name="fotokopi_ijazah_terakhir_fotokopi_ktp_pas_foto_terbaru_bukti_pembayaran_pendaftaran">- Fotokopi ijazah terakhir\n- Fotokopi KTP\n- Pas foto terbaru\n- Bukti pembayaran pendaftaran</string>
+    <string name="cara_pendaftaran">Cara Pendaftaran</string>
+    <string name="pendaftaran_dapat_dilakukan_secara_online_melalui_website_kampus_atau_langsung_di_bagian_administrasi_kampus">Pendaftaran dapat dilakukan secara online melalui website kampus atau langsung di bagian administrasi kampus.</string>
+    <string name="tes_pendaftaran_mahasiswa_baru_untuk_semester_ganjil_dimulai_pada_bulan_april_dan_berakhir_pada_bulan_juli">Pendaftaran mahasiswa baru untuk semester ganjil dimulai pada bulan April dan berakhir pada bulan Juli.</string>
+    <string name="detail_waktu_pendaftaran">Waktu Pendaftaran</string>
+    <string name="pendaftaran_mahasiswa_baru">Pendaftaran Mahasiswa Baru</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at felis sit amet nulla cursus viverra. In hac habitasse platea dictumst. Phasellus vitae neque quis urna venenatis sollicitudin. Vivamus efficitur, lorem quis laoreet luctus, metus urna convallis quam, ac tempor nisi elit in dolor. Integer convallis ligula in varius tincidunt. Nam nec justo sed urna hendrerit laoreet. Cras eget felis non nisi congue vulputate.</string>
+    <string name="persyaratan_untuk_pendaftaran">Persyaratan untuk Pendaftaran</string>
+    <string name="detail_syarat_pendaftaran">Syarat Pendaftaran</string>
+    <string name="back">back</string>
+    <string name="arrowdetail">arrowdetail</string>
+    <string name="timeline">Timeline</string>
 </resources>
