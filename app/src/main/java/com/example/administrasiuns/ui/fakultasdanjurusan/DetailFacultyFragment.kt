@@ -39,7 +39,7 @@ class DetailFacultyFragment : Fragment() {
             val totalMajor = it.getString(EXTRA_TOTAL_MAJOR)
             val facultyDesc = it.getString(EXTRA_DESC)
             val url = it.getString(EXTRA_URL)
-            val totalMajorText = "$totalMajor jurusan    "
+            val totalMajorText = "$totalMajor jurusan "
 
             imgFaculty.setImageResource(img)
             tvTotalMajor.text = totalMajorText

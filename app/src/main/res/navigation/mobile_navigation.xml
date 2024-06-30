@@ -46,5 +46,11 @@
         android:label="Detail Menu"
         tools:layout="@layout/fragment_detail_faculty" />
 
+    <fragment
+        android:id="@+id/nav_service"
+        android:name="com.example.administrasiuns.ui.layanan.ServiceFragment"
+        android:label="Service"
+        tools:layout="@layout/fragment_service" />
+
 
 </navigation>
