@@ -8,5 +8,6 @@ data class Faculty(
     val namaInformasi: String,
     val nominal: String,
     val deskripsi: String,
-    val img: Int
+    val img: Int,
+    val url: String
 ) : Parcelable

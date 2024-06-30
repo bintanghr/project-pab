@@ -19,6 +19,7 @@
     <string name="x_major">x major</string>
     <string name="description">description</string>
     <string name="lorem_ipsum_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam vitae leo nec viverra. Aliquam erat volutpat. Phasellus ultricies feugiat neque nec sollicitudin. Vestibulum vel massa feugiat, tempus nulla ut, gravida magna. In ut sem tincidunt, suscipit metus vitae, consequat eros. Duis porta sapien lorem, ac interdum dolor sollicitudin ullamcorper. Nam semper a mauris ut accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc massa, blandit vel quam id, molestie commodo neque. Quisque sed tempor libero, eu molestie ante. Praesent risus lorem, congue non mollis sed, venenatis vitae odio. Etiam eget lacus id sem pellentesque imperdiet sed in urna. Praesent mattis ullamcorper tempor.</string>
+    <string name="website">website</string>
 
     <string-array name="faculty_img">
         <item>@drawable/fib</item>
@@ -86,6 +87,23 @@
         <item><![CDATA[Fakultas ini menawarkan pendidikan di bidang teknologi informasi dan ilmu data. Program studi mencakup pemrograman, analisis data, kecerdasan buatan, dan keamanan siber. Mahasiswa belajar untuk mengembangkan solusi teknologi dan menganalisis data besar.]]></item>
         <item><![CDATA[Fakultas ini mempelajari psikologi, termasuk psikologi klinis, psikologi perkembangan, psikologi sosial, dan psikologi pendidikan. Mahasiswa diajarkan teori dan praktik untuk memahami perilaku manusia dan proses mental.]]></item>
         <item><![CDATA[Sekolah Vokasi menawarkan program pendidikan yang lebih aplikatif dan berorientasi pada keterampilan praktis. Program studi mencakup berbagai bidang teknis dan profesional, seperti teknik mesin, pariwisata, dan keperawatan.]]></item>
+    </string-array>
+
+    <string-array name="faculty_url">
+        <item>fib</item>
+        <item>hukum</item>
+        <item>feb</item>
+        <item>fisip</item>
+        <item>fk</item>
+        <item>fp</item>
+        <item>ft</item>
+        <item>fkip</item>
+        <item>mipa</item>
+        <item>fsrd</item>
+        <item>fkor</item>
+        <item>fatisda</item>
+        <item>psikologi</item>
+        <item>vokasi</item>
     </string-array>
 
     <string-array name="nama_informasi_pengeluaran">
