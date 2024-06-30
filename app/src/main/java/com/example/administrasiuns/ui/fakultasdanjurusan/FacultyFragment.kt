@@ -32,9 +32,10 @@ class FacultyFragment : Fragment() {
         val dataTotalMajor = resources.getStringArray(R.array.total_major)
         val dataDesc = resources.getStringArray(R.array.faculty_description)
         val dataImg = resources.obtainTypedArray(R.array.faculty_img)
+        val dataUrl = resources.getStringArray(R.array.faculty_url)
         val facultyList = ArrayList<Faculty>()
         for (i in dataName.indices) {
-            val faculty = Faculty(dataName[i], dataTotalMajor[i], dataDesc[i], dataImg.getResourceId(i, -1))
+            val faculty = Faculty(dataName[i], dataTotalMajor[i], dataDesc[i], dataImg.getResourceId(i, -1), dataUrl[i])
             facultyList.add(faculty)
         }
         return facultyList
