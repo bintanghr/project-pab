@@ -2,7 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/card_view"
+    android:id="@+id/item_row_service"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
@@ -10,8 +10,8 @@
     android:layout_marginHorizontal="12dp"
     card_view:cardCornerRadius="16dp"
     android:backgroundTint="#F8F8FF">
-<!--    #F8F8FF-->
-<!--    #F5F5F5-->
+    <!--    #F8F8FF-->
+    <!--    #F5F5F5-->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint_card"

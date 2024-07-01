@@ -2,8 +2,8 @@
     <string name="app_name">Administrasi UNS</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Kelompok 5</string>
+    <string name="nav_header_subtitle">kelompok5asik@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -20,7 +20,9 @@
     <string name="description">description</string>
     <string name="lorem_ipsum_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam vitae leo nec viverra. Aliquam erat volutpat. Phasellus ultricies feugiat neque nec sollicitudin. Vestibulum vel massa feugiat, tempus nulla ut, gravida magna. In ut sem tincidunt, suscipit metus vitae, consequat eros. Duis porta sapien lorem, ac interdum dolor sollicitudin ullamcorper. Nam semper a mauris ut accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc massa, blandit vel quam id, molestie commodo neque. Quisque sed tempor libero, eu molestie ante. Praesent risus lorem, congue non mollis sed, venenatis vitae odio. Etiam eget lacus id sem pellentesque imperdiet sed in urna. Praesent mattis ullamcorper tempor.</string>
     <string name="website">website</string>
+    <string name="service">Service</string>
 
+<!--    Faculty Data Start -->
     <string-array name="faculty_img">
         <item>@drawable/fib</item>
         <item>@drawable/fh</item>
@@ -183,22 +185,157 @@
         <item><![CDATA[Minuman kopi dingin yang dibuat dengan mencampur espresso atau kopi dengan es, susu, sirup, dan kadang-kadang ditambahkan dengan whipped cream di atasnya. Biasanya memiliki rasa yang manis dan segar.]]></item>
         <item><![CDATA[Mirip dengan Americano, tetapi espresso dituangkan di atas air panas. Ini mempertahankan krema dari espresso dengan menambahkan air panas di bawahnya.]]></item>
     </string-array>
+<!--    Faculty Data End-->
 
-    <!--    REGISTRASI  -->
-    <string name="pendaftaran_dan_registrasi">Pendaftaran dan Registrasi</string>
-    <string name="waktu_pendaftaran">Waktu Pendaftaran</string>
-    <string name="pendaftaran_mahasiswa_baru_untuk_semester_ganjil_dimulai_pada_bulan_april_dan_berakhir_pada_bulan_juli">Pendaftaran mahasiswa baru untuk semester ganjil dimulai pada bulan April dan berakhir pada bulan Juli.</string>
-    <string name="syarat_pendaftaran">Syarat Pendaftaran</string>
-    <string name="fotokopi_ijazah_terakhir_fotokopi_ktp_pas_foto_terbaru_bukti_pembayaran_pendaftaran">- Fotokopi ijazah terakhir\n- Fotokopi KTP\n- Pas foto terbaru\n- Bukti pembayaran pendaftaran</string>
-    <string name="cara_pendaftaran">Cara Pendaftaran</string>
-    <string name="pendaftaran_dapat_dilakukan_secara_online_melalui_website_kampus_atau_langsung_di_bagian_administrasi_kampus">Pendaftaran dapat dilakukan secara online melalui website kampus atau langsung di bagian administrasi kampus.</string>
-    <string name="tes_pendaftaran_mahasiswa_baru_untuk_semester_ganjil_dimulai_pada_bulan_april_dan_berakhir_pada_bulan_juli">Pendaftaran mahasiswa baru untuk semester ganjil dimulai pada bulan April dan berakhir pada bulan Juli.</string>
-    <string name="detail_waktu_pendaftaran">Waktu Pendaftaran</string>
-    <string name="pendaftaran_mahasiswa_baru">Pendaftaran Mahasiswa Baru</string>
-    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at felis sit amet nulla cursus viverra. In hac habitasse platea dictumst. Phasellus vitae neque quis urna venenatis sollicitudin. Vivamus efficitur, lorem quis laoreet luctus, metus urna convallis quam, ac tempor nisi elit in dolor. Integer convallis ligula in varius tincidunt. Nam nec justo sed urna hendrerit laoreet. Cras eget felis non nisi congue vulputate.</string>
-    <string name="persyaratan_untuk_pendaftaran">Persyaratan untuk Pendaftaran</string>
-    <string name="detail_syarat_pendaftaran">Syarat Pendaftaran</string>
-    <string name="back">back</string>
-    <string name="arrowdetail">arrowdetail</string>
-    <string name="timeline">Timeline</string>
+<!--    Service Data Start-->
+    <string-array name="service_name">
+        <item>Layanan Akses Internet Wireless</item>
+        <item>Permohonan Web Service (API) Baru</item>
+        <item>Maintenance/Perbaikan Web Service (API)</item>
+        <item>Layanan Lisensi Plugin dan Tema Wordpress Royal Elementor Expert</item>
+        <item>Layanan Permohonan Email Instansi, Unit, Kegiatan dan Jurnal</item>
+        <item>Pembukaan Blokir Akun Student, Staff dan Unit</item>
+        <item>Aktivasi Email Single Sign On (SSO) Mahasiswa dan Staff</item>
+        <item>Layanan Permohonan Lisensi Microsoft Office 365</item>
+    </string-array>
+
+    <string-array name="service_terms">
+    <item>
+        Jaringan Wireless di Lingkungan UNS
+        Jaringan Wireless dengan SSID UNS Solo atau Eduroam
+    </item>
+        <item>
+        Permohonan Webservice Baru
+    </item>
+        <item>
+        Maintenance/Perbaikan Web Service
+    </item>
+        <item>
+        Pengajuan surat dengan detail
+        Nama Domain
+        Informasi PIC Domain
+        Nama
+        Nip/Nim
+        Email SSO
+        No HP aktif
+    </item>
+        <item>
+        Lembaga yang mengajukan di bawah UNS
+        Kegiatan yang disuport adalah kegiatan yang diselenggarakan oleh UNS.
+    </item>
+        <item>
+        Email UNS berafiliasi ke Google License UNS.
+    </item>
+        <item>
+        Untuk email @student.uns.ac.id
+        - Memiliki NIM
+        - Memiliki PIN terakhir (semester saat membuat Email) dari Bank
+        - Memiliki nomor HP yg teregister di Siakad
+        - Nomor HP dapat dikirimi Whatsapp
+
+        Untuk email @staff.uns.ac.id
+        - Memiliki NIP terdaftar di simpeg.uns.ac.id
+        - Nomor HP teregister di simpeg
+        - Nomor HP dapat dikirimi Whatsapp
+    </item>
+        <item>
+        1. Layanan Microsoft Office 365 itu ada 2 jenis : layanan email 365 dengan free feature (meliputi one drive, microsoft office web version) dan layanan email 365 dengan free feature + aplikasi desktop microsoft office (jumlahnya terbatas 200 lisensi yang hanya untuk staf saja);
+        2. Email yang disetujui hanya @staff (@student hanya dapat free feature), sedangkan @unit/@mail tidak perkenankan;
+        3. Menyertakan NIP yang sesuai dengan email @staff (NIM mahasiswa untuk @student).
+    </item>
+    </string-array>
+
+    <string-array name="service_procedure">
+    <item>
+        1. Unit Kerja Mengajukan Keluhan jaringan
+        2. TIK Menerima keluhan jaringan
+        3. TIK menganalisis Permasalahan
+        4. TIK Mengirimkan analisis permasalahan Solusi dan menyelesaikan jika itu permasalahan ada di TIK
+        5. Unit Kerja Menerima analisis permasalahan dan Solusi
+        6. Unit Kerja Menganalisis anggaran untuk kebutuhan untuk penyelesaian masalah jika diperlukan
+        7. Unit Kerja Koordinasi dengan TIK untuk pembagian tugas
+        8. TIK Menerima pembagian tugas
+        9. Unit Kerja Melakukan pengadaan baik barang maupun SDM Teknis jika dibutuhkan
+        10. Unit Kerja Melaporkan ke TIK jika sdh selesai (solved)
+    </item>
+        <item>
+        1. Unit Kerja Mengajukan Permohonan webservice disertai spesifikasi Web, kebutuhan storage per tahun disertai email PIC Web.
+        2. TIK Menganalisis kebutuhan, menentukan authentifikasi webservice
+        3. TIK Development webservice sesuai kebutuhan
+        4. TIK Menguji coba webservice sesuai kebutuhan
+        5. TIK Mengirimkan akun sesuai kebutuhan ke email PIC
+        6. Unit Kerja Menerima Akun Web melalui email
+        7. Unit Kerja Memanfaatkan webservice sesuai kebutuhan
+        8. Unit Kerja Melakukan pengujian implementasi webservice
+    </item>
+        <item>
+        1. Unit Kerja Mengajukan Keluhan webservice
+        2. TIK Menerima keluhan webservice
+        3. TIK Menganalisis Permasalahan
+        4. TIK Mengirimkan analisis permasalahan Solusi dan menyelesaikan jika itu permasalahan ada di TIK
+        5. Unit Kerja Menerima analisis permasalahan dan Solusi
+        6. Unit Kerja Melakukan tindak lanjut atas analisis dan solusi yg diberikan.
+        7. Unit Kerja Melakukan ujicoba tindak lanjut.
+        8. Unit Kerja Melaporkan jika webservice sudah bisa digunakan scr normal.
+    </item>
+        <item>
+        1. Dalam waktu 14 hari setelah menerima informasi email, lisensi harus segera diaktifkan
+        2. Menggunakan tema "Royal Elementor Kit" by WP Royal dan menghapus tema lain yang tidak dipakai. jika terdeteksi tidak menggunakan tema tersebut maka lisensi akan dinonaktifkan
+        3. Website harus selalu di update. apabila diketahui website offline selama lebih dari 1 minggu, maka TIK akan menonaktifkan lisensi
+        4. Pengajuan lisensi hanya berlaku 1 kali dan tidak dapat digunakan untuk menjadi dasar untuk pengaktifan kembali apabila lisensi sudah di nonaktifkan
+    </item>
+        <item>
+        1. Mengajukan surat
+        2. Diverifikasi oleh admin
+        3. Didisposisikan oleh Pimpinan ke Staff
+        4. Dieksekusi oleh Staff
+        5. Pemohon mendapatkan notifikasi email selesai
+        6. Pemohon mendapatkan email mengenai akun email yang dimohon
+    </item>
+        <item>
+        1. Pemohon mengajukan surat
+        2. Proses Review oleh tim admin
+        3. Proses pengajuan pengeluaran dari blokir
+        4. Informasi ke pemohon untuk mencoba kembali
+    </item>
+        <item>
+        1. Mengajukan via profil.uns.ac.id
+        2. memasukkan NIP atau Email sesuai form online di profil.uns.ac.id
+        3. Mengisikan 4 digit terakhir nomor HP yg telah teregister sesuai syarat
+        4. Menerima Token melalui Whatsapp
+        5. Mengisikan Token dalam aplikasi profil.uns.ac.id
+        6. Mengisikan usulan username (buat yg mudah diingat)
+        7. Mengisikan Password (Buat yg passphrase, tidak mudah ditebak tapi mudah diingat)
+        8. Klik tombol Aktifkan email
+    </item>
+        <item>
+        1. Mengajukan permohonan surat
+        2. Tim administrasi mereview surat
+        3. Tim Teknis mengekseskusi lisensi
+        4. Pemohon mendapatkan notifikasi
+    </item>
+    </string-array>
+
+    <string-array name="service_time">
+        <item>1 hari</item>
+        <item>1 hari</item>
+        <item>1 hari</item>
+        <item>14 hari</item>
+        <item>2 hari</item>
+        <item>2 hari</item>
+        <item>1 hari</item>
+        <item>2 hari</item>
+    </string-array>
+
+    <string-array name="service_cost">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+<!--    Service Data End-->
 </resources>

@@ -24,10 +24,9 @@
             android:id="@+id/nav_faculty"
             android:icon="@drawable/baseline_business_24"
             android:title="@string/fakultas" />
-
         <item
-            android:id="@+id/fragment_dashboard_registrasi"
-            android:icon="@drawable/documents"
-            android:title="Registrasi" />
+            android:id="@+id/nav_service"
+            android:icon="@drawable/baseline_design_services_24"
+            android:title="@string/service" />
     </group>
 </menu>
