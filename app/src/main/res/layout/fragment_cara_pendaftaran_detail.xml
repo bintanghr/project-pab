@@ -29,7 +29,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cara Daftar SM UNS dan Informasi Tambahan Biaya Pendidikan"
+            android:text="@string/cara_daftar_sm_uns_dan_informasi_tambahan_biaya_pendidikan"
             android:textSize="18sp"
             android:textStyle="italic"
             android:textAlignment="center"
@@ -55,7 +55,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Step 1"
+                    android:text="@string/step_1"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black" />
@@ -64,7 +64,7 @@
                     android:id="@+id/text_step1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pendaftaran Seleksi Mandiri Program Sarjana UNS dilakukan secara online melalui laman https://spmb.uns.ac.id"
+                    android:text="@string/pendaftaran_seleksi_mandiri_program_sarjana_uns_dilakukan_secara_online_melalui_laman_https_spmb_uns_ac_id"
                     android:textSize="16sp"
                     android:layout_marginTop="4dp"
                     android:textColor="@color/black"
@@ -91,7 +91,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Step 2"
+                    android:text="@string/step_2"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black" />
@@ -100,7 +100,7 @@
                     android:id="@+id/text_step2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hasil seleksi akan diumumkan melalui laman https://spmb.uns.ac.id"
+                    android:text="@string/hasil_seleksi_akan_diumumkan_melalui_laman_https_spmb_uns_ac_id"
                     android:textSize="16sp"
                     android:layout_marginTop="4dp"
                     android:textColor="@color/black"
@@ -128,7 +128,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Step 3"
+                    android:text="@string/step_3"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black" />
@@ -136,7 +136,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Perubahan ketentuan tentang pelaksanaan Seleksi Mandiri UNS tahun 2024 akan diatur dan diberitahukan kemudian"
+                    android:text="@string/perubahan_ketentuan_tentang_pelaksanaan_seleksi_mandiri_uns_tahun_2024_akan_diatur_dan_diberitahukan_kemudian"
                     android:textSize="16sp"
                     android:layout_marginTop="4dp"
                     android:textColor="@color/black" />
@@ -161,7 +161,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Step 4"
+                    android:text="@string/step_4"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black" />
@@ -169,7 +169,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Biaya pendidikan mahasiswa baru yang diterima melalui Seleksi Mandiri UNS terdiri atas Uang Kuliah Tunggal (UKT) dan Sumbangan Pengembangan Institusi (SPI)"
+                    android:text="@string/biaya_pendidikan_mahasiswa_baru_yang_diterima_melalui_seleksi_mandiri_uns_terdiri_atas_uang_kuliah_tunggal_ukt_dan_sumbangan_pengembangan_institusi_spi"
                     android:textSize="16sp"
                     android:layout_marginTop="4dp"
                     android:textColor="@color/black" />
@@ -177,7 +177,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Uang Kuliah Tunggal dipungut per semester sampai selesai masa studi (nominal UKT bervariasi untuk masing-masing program studi)"
+                    android:text="@string/uang_kuliah_tunggal_dipungut_per_semester_sampai_selesai_masa_studi_nominal_ukt_bervariasi_untuk_masing_masing_program_studi"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp"
                     android:textColor="@color/black" />
@@ -185,7 +185,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sumbangan Pengembangan Institusi dipungut sekali selama studi pada awal tahun kuliah dengan pembayaran dapat diangsur dua kali (nominal SPI bervariasi untuk setiap program studi)"
+                    android:text="@string/sumbangan_pengembangan_institusi_dipungut_sekali_selama_studi_pada_awal_tahun_kuliah_dengan_pembayaran_dapat_diangsur_dua_kali_nominal_spi_bervariasi_untuk_setiap_program_studi"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp"
                     android:textColor="@color/black" />
@@ -193,7 +193,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Biaya pendidikan bagi pemegang KIP-K mengikuti ketentuan yang berlaku"
+                    android:text="@string/biaya_pendidikan_bagi_pemegang_kip_k_mengikuti_ketentuan_yang_berlaku"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp"
                     android:textColor="@color/black" />

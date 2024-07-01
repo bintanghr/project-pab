@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/detail_syarat_pendaftaran"
+            android:text="@string/syarat_pendaftaran"
             android:textSize="24sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -54,7 +54,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Persyaratan Umum"
+                    android:text="@string/persyaratan_umum"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"
@@ -63,53 +63,58 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1. Warga Negara Indonesia"
+                    android:text="@string/_1_warga_negara_indonesia"
                     android:textSize="16sp"
                     android:textColor="@color/black"
-                    android:paddingLeft="8dp"
-                    android:paddingBottom="8dp"/>
+                    android:paddingStart="8dp"
+                    android:paddingBottom="8dp"
+                    tools:ignore="RtlSymmetry" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2. Lulusan SMA/MA/SMK atau yang sederajat paling lama 3 (tiga) tahun terakhir"
+                    android:text="@string/_2_lulusan_sma_ma_smk_atau_yang_sederajat_paling_lama_3_tiga_tahun_terakhir"
                     android:textSize="16sp"
                     android:textColor="@color/black"
-                    android:paddingLeft="8dp"
-                    android:paddingBottom="8dp"/>
+                    android:paddingStart="8dp"
+                    android:paddingBottom="8dp"
+                    tools:ignore="RtlSymmetry" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="3. Memiliki kesehatan yang memadai sehingga tidak mengganggu kelancaran proses studi"
+                    android:text="@string/_3_memiliki_kesehatan_yang_memadai_sehingga_tidak_mengganggu_kelancaran_proses_studi"
                     android:textSize="16sp"
                     android:textColor="@color/black"
-                    android:paddingLeft="8dp"
-                    android:paddingBottom="8dp"/>
+                    android:paddingStart="8dp"
+                    android:paddingBottom="8dp"
+                    tools:ignore="RtlSymmetry" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="4. Mendaftarkan diri sebagai peserta Seleksi Mandiri UNS tahun 2024"
+                    android:text="@string/_4_mendaftarkan_diri_sebagai_peserta_seleksi_mandiri_uns_tahun_2024"
                     android:textSize="16sp"
                     android:textColor="@color/black"
                     android:paddingLeft="8dp"
-                    android:paddingBottom="8dp"/>
+                    android:paddingBottom="8dp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="5. Mengikuti dan memiliki Nilai UTUL UNS 2024"
+                    android:text="@string/_5_mengikuti_dan_memiliki_nilai_utul_uns_2024"
                     android:textSize="16sp"
                     android:textColor="@color/black"
-                    android:paddingLeft="8dp"
-                    android:paddingBottom="16dp"/>
+                    android:paddingStart="8dp"
+                    android:paddingBottom="16dp"
+                    tools:ignore="RtlSymmetry" />
 
                 <!-- Persyaratan Khusus -->
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Persyaratan Khusus"
+                    android:text="@string/persyaratan_khusus"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"
@@ -118,29 +123,32 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1. Peserta yang memilih S-1 Pendidikan Jasmani, Kesehatan dan Rekreasi dan S-1 Pendidikan Kepelatihan Olahraga memiliki tinggi badan minimal 160 cm bagi putra dan minimal 155 cm bagi putri dan mengunggah portofolio"
+                    android:text="@string/_1_peserta_yang_memilih_s_1_pendidikan_jasmani_kesehatan_dan_rekreasi_dan_s_1_pendidikan_kepelatihan_olahraga_memiliki_tinggi_badan_minimal_160_cm_bagi_putra_dan_minimal_155_cm_bagi_putri_dan_mengunggah_portofolio"
                     android:textSize="16sp"
                     android:textColor="@color/black"
                     android:paddingLeft="8dp"
-                    android:paddingBottom="8dp"/>
+                    android:paddingBottom="8dp"
+                    tools:ignore="MissingPrefix,RtlHardcoded,RtlSymmetry" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2. Peserta yang memilih S-1 Kriya Seni/Tekstil, S-1 Seni Rupa Murni (Seni Lukis, Grafis, Patung, Keramik), S-1 Desain Interior, S-1 Desain Komunikasi Visual, S-1 Pendidikan Seni Rupa diharuskan mengunggah portofolio"
+                    android:text="@string/_2_peserta_yang_memilih_s_1_kriya_seni_tekstil_s_1_seni_rupa_murni_seni_lukis_grafis_patung_keramik_s_1_desain_interior_s_1_desain_komunikasi_visual_s_1_pendidikan_seni_rupa_diharuskan_mengunggah_portofolio"
                     android:textSize="16sp"
                     android:textColor="@color/black"
                     android:paddingLeft="8dp"
-                    android:paddingBottom="8dp"/>
+                    android:paddingBottom="8dp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="3. Peserta yang memilih program studi Kebidanan: putri, memiliki tinggi badan minimal 150 cm."
+                    android:text="@string/_3_peserta_yang_memilih_program_studi_kebidanan_putri_memiliki_tinggi_badan_minimal_150_cm"
                     android:textSize="16sp"
                     android:textColor="@color/black"
                     android:paddingLeft="8dp"
-                    android:paddingBottom="16dp"/>
+                    android:paddingBottom="16dp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>

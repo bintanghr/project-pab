@@ -47,7 +47,8 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/ic_calender"
-                    android:layout_marginEnd="16dp" />
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/waktu_pendaftaran"/>
 
                 <TextView
                     android:layout_width="0dp"
@@ -89,7 +90,8 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/documents"
-                    android:layout_marginEnd="16dp" />
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/syarat_pendaftaran"/>
 
                 <TextView
                     android:layout_width="0dp"
@@ -130,7 +132,8 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/register"
-                    android:layout_marginEnd="16dp" />
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/cara_pendaftaran"/>
 
                 <TextView
                     android:layout_width="0dp"

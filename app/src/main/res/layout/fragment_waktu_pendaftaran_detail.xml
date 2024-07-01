@@ -29,7 +29,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pendaftaran_mahasiswa_baru"
+            android:text="@string/waktu_pendaftaran_mahasiswa_baru"
             android:textSize="18sp"
             android:textStyle="italic"
             android:layout_gravity="center_horizontal"
@@ -63,12 +63,13 @@
                         android:layout_height="40dp"
                         android:src="@drawable/register"
                         android:layout_marginBottom="8dp"
-                        android:layout_gravity="center_horizontal" />
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/pendaftaran_online"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="30 Mei - 23 Juni 2024"
+                        android:text="@string/_30_mei_23_juni_2024"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
@@ -77,7 +78,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pendaftaran Online"
+                        android:text="@string/pendaftaran_online"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center_horizontal"
@@ -112,12 +113,13 @@
                         android:layout_height="40dp"
                         android:src="@drawable/pembayaran"
                         android:layout_marginBottom="8dp"
-                        android:layout_gravity="center_horizontal" />
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/pembayaran_biaya_pendaftaran"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="30 Mei - 23 Juni 2024"
+                        android:text="@string/_30_mei_23_juni_2024"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
@@ -126,7 +128,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pembayaran Biaya Pendaftaran"
+                        android:text="@string/pembayaran_biaya_pendaftaran"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center_horizontal"
@@ -161,12 +163,13 @@
                         android:layout_height="40dp"
                         android:src="@drawable/cetak"
                         android:layout_marginBottom="8dp"
-                        android:layout_gravity="center_horizontal" />
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/cetak_kartu_peserta"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="20 – 23 Juni 2024"
+                        android:text="@string/_20_23_juni_2024"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
@@ -175,7 +178,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cetak Kartu Peserta"
+                        android:text="@string/cetak_kartu_peserta"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center_horizontal"
@@ -210,12 +213,13 @@
                         android:layout_height="40dp"
                         android:src="@drawable/documents"
                         android:layout_marginBottom="8dp"
-                        android:layout_gravity="center_horizontal" />
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/simulasi_ujian"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="26 – 27 Juni dan 1 Juli 2024"
+                        android:text="@string/_26_27_juni_dan_1_juli_2024"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
@@ -224,7 +228,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Simulasi Ujian"
+                        android:text="@string/simulasi_ujian"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center_horizontal"
@@ -258,12 +262,13 @@
                         android:layout_height="40dp"
                         android:src="@drawable/documents"
                         android:layout_marginBottom="8dp"
-                        android:layout_gravity="center_horizontal" />
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/ujian"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="3 – 4 Juli dan 6 Juli 2024"
+                        android:text="@string/_3_4_juli_dan_6_juli_2024"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
@@ -272,7 +277,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Ujian"
+                        android:text="@string/ujian"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center_horizontal"
@@ -306,12 +311,13 @@
                         android:layout_height="40dp"
                         android:src="@drawable/annoucement"
                         android:layout_marginBottom="8dp"
-                        android:layout_gravity="center_horizontal" />
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/pengumuman_hasil_seleksi"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="11 Juli 2024"
+                        android:text="@string/_11_juli_2024"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
@@ -320,7 +326,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pengumuman Hasil Seleksi"
+                        android:text="@string/pengumuman_hasil_seleksi"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center_horizontal"

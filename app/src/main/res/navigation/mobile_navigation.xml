@@ -47,6 +47,12 @@
         tools:layout="@layout/fragment_detail_faculty" />
 
     <fragment
+        android:id="@+id/dashboardRegistrasiFragment"
+        android:name="com.example.administrasiuns.ui.registrasi.DashboardRegistrasiFragment"
+        android:label="fragment_dashboard_registrasi"
+        tools:layout="@layout/fragment_dashboard_registrasi" />
+
+    <fragment
         android:id="@+id/nav_service"
         android:name="com.example.administrasiuns.ui.layanan.ServiceFragment"
         android:label="Service"
