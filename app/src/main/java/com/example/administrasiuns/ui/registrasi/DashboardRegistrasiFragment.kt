@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment.Companion.findNavController
 import com.example.administrasiuns.R
 import com.example.administrasiuns.databinding.FragmentDashboardRegistrasiBinding
 
@@ -15,7 +17,7 @@ class DashboardRegistrasiFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentDashboardRegistrasiBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -24,23 +26,16 @@ class DashboardRegistrasiFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.cardWaktuPendaftaran.setOnClickListener {
-            openDetailFragment(WaktuPendaftaranDetailFragment())
+            it.findNavController().navigate(R.id.action_registrationFragment_to_detailRegistrationScheduleFragment)
         }
 
         binding.cardSyaratPendaftaran.setOnClickListener {
-            openDetailFragment(SyaratPendaftaranDetailFragment())
+            it.findNavController().navigate(R.id.action_registrationFragment_to_detailRegistrationTermsFragment)
         }
 
         binding.cardCaraPendaftaran.setOnClickListener {
-            openDetailFragment(CaraPendaftaranDetailFragment())
+            it.findNavController().navigate(R.id.action_registrationFragment_to_detailRegistrationProcedureFragment)
         }
-    }
-
-    private fun openDetailFragment(fragment: Fragment) {
-        requireActivity().supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, fragment)
-            .addToBackStack(null)
-            .commit()
     }
 
     override fun onDestroyView() {

@@ -402,6 +402,11 @@
     <string name="_1_peserta_yang_memilih_s_1_pendidikan_jasmani_kesehatan_dan_rekreasi_dan_s_1_pendidikan_kepelatihan_olahraga_memiliki_tinggi_badan_minimal_160_cm_bagi_putra_dan_minimal_155_cm_bagi_putri_dan_mengunggah_portofolio">1. Peserta yang memilih S-1 Pendidikan Jasmani, Kesehatan dan Rekreasi dan S-1 Pendidikan Kepelatihan Olahraga memiliki tinggi badan minimal 160 cm bagi putra dan minimal 155 cm bagi putri dan mengunggah portofolio</string>
     <string name="_2_peserta_yang_memilih_s_1_kriya_seni_tekstil_s_1_seni_rupa_murni_seni_lukis_grafis_patung_keramik_s_1_desain_interior_s_1_desain_komunikasi_visual_s_1_pendidikan_seni_rupa_diharuskan_mengunggah_portofolio">2. Peserta yang memilih S-1 Kriya Seni/Tekstil, S-1 Seni Rupa Murni (Seni Lukis, Grafis, Patung, Keramik), S-1 Desain Interior, S-1 Desain Komunikasi Visual, S-1 Pendidikan Seni Rupa diharuskan mengunggah portofolio</string>
     <string name="_3_peserta_yang_memilih_program_studi_kebidanan_putri_memiliki_tinggi_badan_minimal_150_cm">3. Peserta yang memilih program studi Kebidanan: putri, memiliki tinggi badan minimal 150 cm.</string>
+    <string name="informasi_registrasi">Informasi Registrasi</string>
+    <string name="lihat_detail"><u>lihat detail</u></string>
+    <string name="aplikasi_administrasi_uns">Aplikasi Administrasi UNS</string>
+    <string name="foto_universitas">foto universitas</string>
+    <string name="home_description">Selamat datang di aplikasi Administrasi Universitas Sebelas Maret (UNS). Aplikasi ini dirancang untuk memberikan kemudahan akses bagi seluruh civitas akademika UNS dalam memperoleh informasi dan layanan administrasi secara cepat dan efisien. Berikut adalah fitur-fitur utama yang tersedia dalam aplikasi ini:</string>
 
     <!--    REGISTRASI END-->
 >>>>>>> c0bd801905905c361cd3b1c6fddc3a800c93c997

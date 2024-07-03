@@ -13,12 +13,12 @@ class ListServiceAdapter(private val listService: ArrayList<Service>) :
     RecyclerView.Adapter<ListServiceAdapter.ListViewHolder>() {
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 //        val imgPhoto: ImageView = itemView.findViewById(R.id.img_faculty_photo)
-        val tvPrice: TextView = itemView.findViewById(R.id.tv_faculty_major)
-        val tvName: TextView = itemView.findViewById(R.id.tv_faculty_name)
+        val tvProcessingTime: TextView = itemView.findViewById(R.id.tv_processing_time)
+        val tvServiceName: TextView = itemView.findViewById(R.id.tv_service_name)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
-        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_faculty, parent, false)
+        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_service, parent, false)
         return ListViewHolder(view)
     }
 
@@ -27,8 +27,8 @@ class ListServiceAdapter(private val listService: ArrayList<Service>) :
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val (serviceName, cost, termsOfService, procedure, processingTime) = listService[position]
 //        val majorText = "Rp $cost"
-        holder.tvPrice.text = processingTime
-        holder.tvName.text = serviceName
+        holder.tvProcessingTime.text = processingTime
+        holder.tvServiceName.text = serviceName
 //        holder.imgPhoto.setImageResource(img)
 
         holder.itemView.setOnClickListener {

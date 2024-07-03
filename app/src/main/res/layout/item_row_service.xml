@@ -19,45 +19,52 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
-        <ImageView
-            android:id="@+id/img_faculty_photo"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:scaleType="centerCrop"
-            android:contentDescription="@string/foto_fakultas"
-            card_view:layout_constraintBottom_toBottomOf="parent"
-            card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent"
-            tools:src="@tools:sample/avatars" />
+<!--        <ImageView-->
+<!--            android:id="@+id/img_faculty_photo"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:contentDescription="@string/foto_fakultas"-->
+<!--            card_view:layout_constraintBottom_toBottomOf="parent"-->
+<!--            card_view:layout_constraintStart_toStartOf="parent"-->
+<!--            card_view:layout_constraintTop_toTopOf="parent"-->
+<!--            tools:src="@tools:sample/avatars" />-->
+<!--        android:layout_toEndOf="@id/img_faculty_photo"-->
 
         <TextView
-            android:id="@+id/tv_faculty_name"
+            android:id="@+id/tv_service_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="8dp"
-            android:layout_toEndOf="@id/img_faculty_photo"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#555555"
             android:fontFamily="@font/poppins_semi_bold"
             card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintStart_toEndOf="@+id/img_faculty_photo"
-            card_view:layout_constraintTop_toTopOf="@+id/img_faculty_photo"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
             tools:text="lorem ipsum" />
 
         <TextView
-            android:id="@+id/tv_faculty_major"
+            android:id="@+id/tv_processing_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:textColor="#555555"
             android:textSize="16sp"
             android:fontFamily="@font/poppins_regular"
-            card_view:layout_constraintBottom_toBottomOf="@+id/img_faculty_photo"
-            card_view:layout_constraintStart_toStartOf="@+id/tv_faculty_name"
-            card_view:layout_constraintTop_toBottomOf="@+id/tv_faculty_name"
-            card_view:layout_constraintVertical_bias="0.0"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_service_name"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_service_name"
             tools:text="lorem ipsum" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="@+id/tv_processing_time"
+            card_view:layout_constraintBottom_toBottomOf="@id/tv_processing_time"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/lihat_detail" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

@@ -9,14 +9,6 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
             android:id="@+id/nav_informasi_keuangan"
             android:icon="@drawable/baseline_currency_exchange_24"
             android:title="@string/informasi_keuangan" />
@@ -28,5 +20,9 @@
             android:id="@+id/nav_service"
             android:icon="@drawable/baseline_design_services_24"
             android:title="@string/service" />
+        <item
+            android:id="@+id/nav_registration"
+            android:icon="@drawable/baseline_app_registration_24"
+            android:title="@string/informasi_registrasi" />
     </group>
 </menu>
