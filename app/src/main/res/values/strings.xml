@@ -346,5 +346,63 @@
         <item>0</item>
         <item>0</item>
     </string-array>
+<!--<<<<<<< HEAD-->
     <!--    Service Data End-->
+=======
+<!--    Service Data End-->
+
+<!--    REGISTRASI-->
+    <string name="pendaftaran_dan_registrasi">Pendaftaran dan Registrasi</string>
+    <string name="waktu_pendaftaran">Waktu Pendaftaran</string>
+    <string name="pendaftaran_mahasiswa_baru_untuk_semester_ganjil_dimulai_pada_bulan_april_dan_berakhir_pada_bulan_juli">Pendaftaran mahasiswa baru untuk semester ganjil dimulai pada bulan April dan berakhir pada bulan Juli.</string>
+    <string name="syarat_pendaftaran">Syarat Pendaftaran</string>
+    <string name="fotokopi_ijazah_terakhir_fotokopi_ktp_pas_foto_terbaru_bukti_pembayaran_pendaftaran">- Fotokopi ijazah terakhir\n- Fotokopi KTP\n- Pas foto terbaru\n- Bukti pembayaran pendaftaran</string>
+    <string name="cara_pendaftaran">Cara Pendaftaran</string>
+    <string name="pendaftaran_dapat_dilakukan_secara_online_melalui_website_kampus_atau_langsung_di_bagian_administrasi_kampus">Pendaftaran dapat dilakukan secara online melalui website kampus atau langsung di bagian administrasi kampus.</string>
+    <string name="tes_pendaftaran_mahasiswa_baru_untuk_semester_ganjil_dimulai_pada_bulan_april_dan_berakhir_pada_bulan_juli">Pendaftaran mahasiswa baru untuk semester ganjil dimulai pada bulan April dan berakhir pada bulan Juli.</string>
+    <string name="detail_waktu_pendaftaran">Waktu Pendaftaran</string>
+    <string name="pendaftaran_mahasiswa_baru">Pendaftaran Mahasiswa Baru</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at felis sit amet nulla cursus viverra. In hac habitasse platea dictumst. Phasellus vitae neque quis urna venenatis sollicitudin. Vivamus efficitur, lorem quis laoreet luctus, metus urna convallis quam, ac tempor nisi elit in dolor. Integer convallis ligula in varius tincidunt. Nam nec justo sed urna hendrerit laoreet. Cras eget felis non nisi congue vulputate.</string>
+    <string name="persyaratan_untuk_pendaftaran">Persyaratan untuk Pendaftaran</string>
+    <string name="detail_syarat_pendaftaran">Syarat Pendaftaran</string>
+    <string name="back">back</string>
+    <string name="arrowdetail">arrowdetail</string>
+    <string name="timeline">Timeline</string>
+    <string name="cara_daftar_sm_uns_dan_informasi_tambahan_biaya_pendidikan">Cara Daftar SM UNS dan Informasi Tambahan Biaya Pendidikan</string>
+    <string name="step_1">Step 1</string>
+    <string name="pendaftaran_seleksi_mandiri_program_sarjana_uns_dilakukan_secara_online_melalui_laman_https_spmb_uns_ac_id">Pendaftaran Seleksi Mandiri Program Sarjana UNS dilakukan secara online melalui laman https://spmb.uns.ac.id</string>
+    <string name="step_2">Step 2</string>
+    <string name="hasil_seleksi_akan_diumumkan_melalui_laman_https_spmb_uns_ac_id">Hasil seleksi akan diumumkan melalui laman https://spmb.uns.ac.id</string>
+    <string name="step_3">Step 3</string>
+    <string name="perubahan_ketentuan_tentang_pelaksanaan_seleksi_mandiri_uns_tahun_2024_akan_diatur_dan_diberitahukan_kemudian">Perubahan ketentuan tentang pelaksanaan Seleksi Mandiri UNS tahun 2024 akan diatur dan diberitahukan kemudian</string>
+    <string name="step_4">Step 4</string>
+    <string name="biaya_pendidikan_mahasiswa_baru_yang_diterima_melalui_seleksi_mandiri_uns_terdiri_atas_uang_kuliah_tunggal_ukt_dan_sumbangan_pengembangan_institusi_spi">Biaya pendidikan mahasiswa baru yang diterima melalui Seleksi Mandiri UNS terdiri atas Uang Kuliah Tunggal (UKT) dan Sumbangan Pengembangan Institusi (SPI)</string>
+    <string name="uang_kuliah_tunggal_dipungut_per_semester_sampai_selesai_masa_studi_nominal_ukt_bervariasi_untuk_masing_masing_program_studi">Uang Kuliah Tunggal dipungut per semester sampai selesai masa studi (nominal UKT bervariasi untuk masing-masing program studi)</string>
+    <string name="sumbangan_pengembangan_institusi_dipungut_sekali_selama_studi_pada_awal_tahun_kuliah_dengan_pembayaran_dapat_diangsur_dua_kali_nominal_spi_bervariasi_untuk_setiap_program_studi">Sumbangan Pengembangan Institusi dipungut sekali selama studi pada awal tahun kuliah dengan pembayaran dapat diangsur dua kali (nominal SPI bervariasi untuk setiap program studi)</string>
+    <string name="biaya_pendidikan_bagi_pemegang_kip_k_mengikuti_ketentuan_yang_berlaku">Biaya pendidikan bagi pemegang KIP-K mengikuti ketentuan yang berlaku</string>
+    <string name="waktu_pendaftaran_mahasiswa_baru">Waktu Pendaftaran Mahasiswa Baru</string>
+    <string name="_30_mei_23_juni_2024">30 Mei - 23 Juni 2024</string>
+    <string name="pendaftaran_online">Pendaftaran Online</string>
+    <string name="pembayaran_biaya_pendaftaran">Pembayaran Biaya Pendaftaran</string>
+    <string name="_20_23_juni_2024">20 – 23 Juni 2024</string>
+    <string name="cetak_kartu_peserta">Cetak Kartu Peserta</string>
+    <string name="_26_27_juni_dan_1_juli_2024">26 – 27 Juni dan 1 Juli 2024</string>
+    <string name="simulasi_ujian">Simulasi Ujian</string>
+    <string name="_3_4_juli_dan_6_juli_2024">3 – 4 Juli dan 6 Juli 2024</string>
+    <string name="ujian">Ujian</string>
+    <string name="_11_juli_2024">11 Juli 2024</string>
+    <string name="pengumuman_hasil_seleksi">Pengumuman Hasil Seleksi</string>
+    <string name="persyaratan_umum">Persyaratan Umum</string>
+    <string name="_1_warga_negara_indonesia">1. Warga Negara Indonesia</string>
+    <string name="_2_lulusan_sma_ma_smk_atau_yang_sederajat_paling_lama_3_tiga_tahun_terakhir">2. Lulusan SMA/MA/SMK atau yang sederajat paling lama 3 (tiga) tahun terakhir</string>
+    <string name="_3_memiliki_kesehatan_yang_memadai_sehingga_tidak_mengganggu_kelancaran_proses_studi">3. Memiliki kesehatan yang memadai sehingga tidak mengganggu kelancaran proses studi</string>
+    <string name="_4_mendaftarkan_diri_sebagai_peserta_seleksi_mandiri_uns_tahun_2024">4. Mendaftarkan diri sebagai peserta Seleksi Mandiri UNS tahun 2024</string>
+    <string name="_5_mengikuti_dan_memiliki_nilai_utul_uns_2024">5. Mengikuti dan memiliki Nilai UTUL UNS 2024</string>
+    <string name="persyaratan_khusus">Persyaratan Khusus</string>
+    <string name="_1_peserta_yang_memilih_s_1_pendidikan_jasmani_kesehatan_dan_rekreasi_dan_s_1_pendidikan_kepelatihan_olahraga_memiliki_tinggi_badan_minimal_160_cm_bagi_putra_dan_minimal_155_cm_bagi_putri_dan_mengunggah_portofolio">1. Peserta yang memilih S-1 Pendidikan Jasmani, Kesehatan dan Rekreasi dan S-1 Pendidikan Kepelatihan Olahraga memiliki tinggi badan minimal 160 cm bagi putra dan minimal 155 cm bagi putri dan mengunggah portofolio</string>
+    <string name="_2_peserta_yang_memilih_s_1_kriya_seni_tekstil_s_1_seni_rupa_murni_seni_lukis_grafis_patung_keramik_s_1_desain_interior_s_1_desain_komunikasi_visual_s_1_pendidikan_seni_rupa_diharuskan_mengunggah_portofolio">2. Peserta yang memilih S-1 Kriya Seni/Tekstil, S-1 Seni Rupa Murni (Seni Lukis, Grafis, Patung, Keramik), S-1 Desain Interior, S-1 Desain Komunikasi Visual, S-1 Pendidikan Seni Rupa diharuskan mengunggah portofolio</string>
+    <string name="_3_peserta_yang_memilih_program_studi_kebidanan_putri_memiliki_tinggi_badan_minimal_150_cm">3. Peserta yang memilih program studi Kebidanan: putri, memiliki tinggi badan minimal 150 cm.</string>
+
+    <!--    REGISTRASI END-->
+>>>>>>> c0bd801905905c361cd3b1c6fddc3a800c93c997
 </resources>

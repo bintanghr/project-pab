@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.registrasi.CaraPendaftaranDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cara_pendaftaran"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cara_daftar_sm_uns_dan_informasi_tambahan_biaya_pendidikan"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/black" />
+
+        <!-- Step 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/stepBackgroundColor"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step_1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/text_step1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pendaftaran_seleksi_mandiri_program_sarjana_uns_dilakukan_secara_online_melalui_laman_https_spmb_uns_ac_id"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/black"
+                    android:autoLink="web"
+                    android:linksClickable="true" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Step 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/stepBackgroundColor"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step_2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/text_step2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hasil_seleksi_akan_diumumkan_melalui_laman_https_spmb_uns_ac_id"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/black"
+                    android:autoLink="web"
+                    android:linksClickable="true" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Step 3 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/stepBackgroundColor"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step_3"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perubahan_ketentuan_tentang_pelaksanaan_seleksi_mandiri_uns_tahun_2024_akan_diatur_dan_diberitahukan_kemudian"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Step 4 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/stepBackgroundColor"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step_4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/biaya_pendidikan_mahasiswa_baru_yang_diterima_melalui_seleksi_mandiri_uns_terdiri_atas_uang_kuliah_tunggal_ukt_dan_sumbangan_pengembangan_institusi_spi"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uang_kuliah_tunggal_dipungut_per_semester_sampai_selesai_masa_studi_nominal_ukt_bervariasi_untuk_masing_masing_program_studi"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sumbangan_pengembangan_institusi_dipungut_sekali_selama_studi_pada_awal_tahun_kuliah_dengan_pembayaran_dapat_diangsur_dua_kali_nominal_spi_bervariasi_untuk_setiap_program_studi"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/biaya_pendidikan_bagi_pemegang_kip_k_mengikuti_ketentuan_yang_berlaku"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
