@@ -43,14 +43,24 @@
     <fragment
         android:id="@+id/detailFacultyFragment"
         android:name="com.example.administrasiuns.ui.fakultasdanjurusan.DetailFacultyFragment"
-        android:label="Detail Menu"
+        android:label="Detail Fakultas"
         tools:layout="@layout/fragment_detail_faculty" />
 
     <fragment
         android:id="@+id/nav_service"
         android:name="com.example.administrasiuns.ui.layanan.ServiceFragment"
         android:label="Service"
-        tools:layout="@layout/fragment_service" />
+        tools:layout="@layout/fragment_service">
+        <action
+            android:id="@+id/action_serviceFragment_to_detailServiceFragment"
+            app:destination="@+id/detailServiceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailServiceFragment"
+        android:name="com.example.administrasiuns.ui.layanan.DetailServiceFragment"
+        android:label="Detail Service"
+        tools:layout="@layout/fragment_detail_service" />
 
 
 </navigation>

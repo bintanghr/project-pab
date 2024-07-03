@@ -21,8 +21,17 @@
     <string name="lorem_ipsum_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam vitae leo nec viverra. Aliquam erat volutpat. Phasellus ultricies feugiat neque nec sollicitudin. Vestibulum vel massa feugiat, tempus nulla ut, gravida magna. In ut sem tincidunt, suscipit metus vitae, consequat eros. Duis porta sapien lorem, ac interdum dolor sollicitudin ullamcorper. Nam semper a mauris ut accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc massa, blandit vel quam id, molestie commodo neque. Quisque sed tempor libero, eu molestie ante. Praesent risus lorem, congue non mollis sed, venenatis vitae odio. Etiam eget lacus id sem pellentesque imperdiet sed in urna. Praesent mattis ullamcorper tempor.</string>
     <string name="website">website</string>
     <string name="service">Service</string>
+    <string name="service_name">Service Name</string>
+    <string name="service_terms">service terms</string>
+    <string name="service_procedure">service procedure</string>
+    <string name="service_cost">Rp 50000</string>
+    <string name="service_time">2 hari</string>
+    <string name="syarat">Syarat :</string>
+    <string name="prosedur">Prosedur</string>
+    <string name="biaya">Biaya</string>
+    <string name="waktu_pengerjaan">Waktu Pengerjaan</string>
 
-<!--    Faculty Data Start -->
+    <!--    Faculty Data Start -->
     <string-array name="faculty_img">
         <item>@drawable/fib</item>
         <item>@drawable/fh</item>
@@ -185,9 +194,9 @@
         <item><![CDATA[Minuman kopi dingin yang dibuat dengan mencampur espresso atau kopi dengan es, susu, sirup, dan kadang-kadang ditambahkan dengan whipped cream di atasnya. Biasanya memiliki rasa yang manis dan segar.]]></item>
         <item><![CDATA[Mirip dengan Americano, tetapi espresso dituangkan di atas air panas. Ini mempertahankan krema dari espresso dengan menambahkan air panas di bawahnya.]]></item>
     </string-array>
-<!--    Faculty Data End-->
+    <!--    Faculty Data End-->
 
-<!--    Service Data Start-->
+    <!--    Service Data Start-->
     <string-array name="service_name">
         <item>Layanan Akses Internet Wireless</item>
         <item>Permohonan Web Service (API) Baru</item>
@@ -201,8 +210,8 @@
 
     <string-array name="service_terms">
     <item>
-        Jaringan Wireless di Lingkungan UNS
-        Jaringan Wireless dengan SSID UNS Solo atau Eduroam
+        Jaringan Wireless di Lingkungan UNS\n
+        Jaringan Wireless dengan SSID UNS Solo atau Eduroam\n
     </item>
         <item>
         Permohonan Webservice Baru
@@ -247,18 +256,18 @@
 
     <string-array name="service_procedure">
     <item>
-        1. Unit Kerja Mengajukan Keluhan jaringan
-        2. TIK Menerima keluhan jaringan
-        3. TIK menganalisis Permasalahan
-        4. TIK Mengirimkan analisis permasalahan Solusi dan menyelesaikan jika itu permasalahan ada di TIK
-        5. Unit Kerja Menerima analisis permasalahan dan Solusi
-        6. Unit Kerja Menganalisis anggaran untuk kebutuhan untuk penyelesaian masalah jika diperlukan
-        7. Unit Kerja Koordinasi dengan TIK untuk pembagian tugas
-        8. TIK Menerima pembagian tugas
-        9. Unit Kerja Melakukan pengadaan baik barang maupun SDM Teknis jika dibutuhkan
-        10. Unit Kerja Melaporkan ke TIK jika sdh selesai (solved)
+        1. Unit Kerja Mengajukan Keluhan jaringan\n
+        2. TIK Menerima keluhan jaringan \n
+        3. TIK menganalisis Permasalahan \n
+        4. TIK Mengirimkan analisis permasalahan Solusi dan menyelesaikan jika itu permasalahan ada di TIK \n
+        5. Unit Kerja Menerima analisis permasalahan dan Solusi \n
+        6. Unit Kerja Menganalisis anggaran untuk kebutuhan untuk penyelesaian masalah jika diperlukan \n
+        7. Unit Kerja Koordinasi dengan TIK untuk pembagian tugas \n
+        8. TIK Menerima pembagian tugas \n
+        9. Unit Kerja Melakukan pengadaan baik barang maupun SDM Teknis jika dibutuhkan \n
+        10. Unit Kerja Melaporkan ke TIK jika sdh selesai (solved) \n
     </item>
-        <item>
+    <item>
         1. Unit Kerja Mengajukan Permohonan webservice disertai spesifikasi Web, kebutuhan storage per tahun disertai email PIC Web.
         2. TIK Menganalisis kebutuhan, menentukan authentifikasi webservice
         3. TIK Development webservice sesuai kebutuhan
@@ -337,5 +346,5 @@
         <item>0</item>
         <item>0</item>
     </string-array>
-<!--    Service Data End-->
+    <!--    Service Data End-->
 </resources>
