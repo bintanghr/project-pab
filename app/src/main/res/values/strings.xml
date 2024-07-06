@@ -267,7 +267,7 @@
         9. Unit Kerja Melakukan pengadaan baik barang maupun SDM Teknis jika dibutuhkan \n
         10. Unit Kerja Melaporkan ke TIK jika sdh selesai (solved) \n
     </item>
-    <item>
+        <item>
         1. Unit Kerja Mengajukan Permohonan webservice disertai spesifikasi Web, kebutuhan storage per tahun disertai email PIC Web.
         2. TIK Menganalisis kebutuhan, menentukan authentifikasi webservice
         3. TIK Development webservice sesuai kebutuhan
@@ -346,12 +346,12 @@
         <item>0</item>
         <item>0</item>
     </string-array>
-<!--<<<<<<< HEAD-->
+    <!--<<<<<<< HEAD-->
     <!--    Service Data End-->
-=======
-<!--    Service Data End-->
+    =======
+    <!--    Service Data End-->
 
-<!--    REGISTRASI-->
+    <!--    REGISTRASI-->
     <string name="pendaftaran_dan_registrasi">Pendaftaran dan Registrasi</string>
     <string name="waktu_pendaftaran">Waktu Pendaftaran</string>
     <string name="pendaftaran_mahasiswa_baru_untuk_semester_ganjil_dimulai_pada_bulan_april_dan_berakhir_pada_bulan_juli">Pendaftaran mahasiswa baru untuk semester ganjil dimulai pada bulan April dan berakhir pada bulan Juli.</string>
@@ -407,7 +407,8 @@
     <string name="aplikasi_administrasi_uns">Aplikasi Administrasi UNS</string>
     <string name="foto_universitas">foto universitas</string>
     <string name="home_description">Selamat datang di aplikasi Administrasi Universitas Sebelas Maret (UNS). Aplikasi ini dirancang untuk memberikan kemudahan akses bagi seluruh civitas akademika UNS dalam memperoleh informasi dan layanan administrasi secara cepat dan efisien. Berikut adalah fitur-fitur utama yang tersedia dalam aplikasi ini:</string>
+    <string name="informasi_penerimaan">Informasi Penerimaan</string>
 
     <!--    REGISTRASI END-->
->>>>>>> c0bd801905905c361cd3b1c6fddc3a800c93c997
+    >>>>>>> c0bd801905905c361cd3b1c6fddc3a800c93c997
 </resources>

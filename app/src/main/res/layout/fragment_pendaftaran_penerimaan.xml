@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.penerimaan.PendaftaranPenerimaanFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- UNS Logo Image View -->
+            <ImageView
+                android:id="@+id/uns_logo"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/uns_logo"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="30dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <!-- Title Text View -->
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Seleksi Penerimaan Mahasiswa Baru"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/orange_rounded_background"
+                android:padding="8dp"
+                android:textColor="#F79E1C"
+                app:layout_constraintTop_toBottomOf="@+id/uns_logo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"/>
+
+            <!-- RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_marginTop="25dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/separator" />
+
+            <!-- Separator -->
+            <RelativeLayout
+                android:id="@+id/separator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_blue"
+                android:padding="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/recycler_view"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <!-- Text Description -->
+                <TextView
+                    android:id="@+id/descriptionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pintu masuk ke Universitas Sebelas Maret Surakarta (UNS), di sini anda akan mendapatkan semua informasi mengenai tata cara masuk untuk kuliah di UNS."
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentTop="true"/>
+
+                <!-- Lihat PDF Button -->
+                <Button
+                    android:id="@+id/lihatPdfButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Lihat PDF ➞"
+                    android:textColor="#F79E1C"
+                    android:textSize="10dp"
+                    android:background="@drawable/button_background_white"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/descriptionTextView"
+                    android:layout_marginTop="10dp"
+                    android:onClick="onLihatPdfButtonClick"/>
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<!-- res/drawable/orange_rounded_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#F4E6D7" /> <!-- Warna oranye -->
+    <corners android:radius="16dp" /> <!-- Radius untuk membuat sudut tumpul -->
+</shape>
