@@ -411,4 +411,7 @@
 
     <!--    REGISTRASI END-->
     >>>>>>> c0bd801905905c361cd3b1c6fddc3a800c93c997
+
+    <string name="facility_image">Gambar Fasilitas</string>
+    <string name="fasilitas">Fasilitas</string>
 </resources>

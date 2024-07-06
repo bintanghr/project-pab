@@ -142,4 +142,22 @@
         android:name="com.example.administrasiuns.ui.penerimaan.PPDSFragment"
         android:label="PPDS"
         tools:layout="@layout/fragment_p_p_d_s" />
+
+<!--    damar-->
+    <fragment
+        android:id="@+id/nav_facility"
+        android:name="com.example.administrasiuns.ui.facility.MainFacilityFragment"
+        android:label="Fasilitas"
+        tools:layout="@layout/fragment_main_facility">
+        <action
+            android:id="@+id/action_facilityFragment_to_detailFacilityFragment"
+            app:destination="@id/detailFacility" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFacility"
+        android:name="com.example.administrasiuns.ui.facility.DetailFacilityFragment"
+        android:label="Detail Fasilitas"
+        tools:layout="@layout/fragment_detail_facility" />
+
 </navigation>

@@ -28,5 +28,9 @@
             android:id="@+id/nav_penerimaan"
             android:icon="@drawable/baseline_emoji_people_24"
             android:title="@string/informasi_penerimaan" />
+        <item
+            android:id="@+id/nav_facility"
+            android:icon="@drawable/baseline_signpost_24"
+            android:title="@string/fasilitas" />
     </group>
 </menu>
