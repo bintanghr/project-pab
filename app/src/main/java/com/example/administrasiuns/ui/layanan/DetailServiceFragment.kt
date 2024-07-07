@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -27,7 +28,8 @@ class DetailServiceFragment : Fragment() {
         val tvServiceName : TextView = view.findViewById(R.id.tv_service_name)
         val tvCost : TextView = view.findViewById(R.id.tv_cost)
         val tvTime : TextView = view.findViewById(R.id.tv_time)
-//        val btnWebsite : Button = view.findViewById(R.id.btn_website)
+        val btnPermintaan : Button = view.findViewById(R.id.btn_permintaan)
+        val btnKeluhan : Button = view.findViewById(R.id.btn_keluhan)
 //        var websiteUrl = ""
 
         arguments?.let {
@@ -40,7 +42,6 @@ class DetailServiceFragment : Fragment() {
             tvServiceName.text = serviceName
             tvCost.text = cost
             tvTime.text = time
-//            websiteUrl = "https://$procedure.uns.ac.id/"
 
             if (arguments !== null) {
                 val mainItems = listOf(
@@ -54,10 +55,14 @@ class DetailServiceFragment : Fragment() {
             }
         }
 
-//        btnWebsite.setOnClickListener {
-//            val websiteIntent = Intent(Intent.ACTION_VIEW, Uri.parse(websiteUrl))
-//            startActivity(websiteIntent)
-//        }
+        btnPermintaan.setOnClickListener {
+            val websiteIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://eservice.uns.ac.id/id/site/unit/12-permohonan-webserviceapi-baru-86b39f3f/form-layanan"))
+            startActivity(websiteIntent)
+        }
+        btnKeluhan.setOnClickListener {
+            val websiteIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://eservice.uns.ac.id/id/site/unit/10-layanan-akses-internet-wireless-63060793/form-keluhan"))
+            startActivity(websiteIntent)
+        }
     }
     companion object {
         const val EXTRA_NAME = "extra_name"

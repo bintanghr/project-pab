@@ -117,6 +117,23 @@
         <item>vokasi</item>
     </string-array>
 
+    <string-array name="faculty_major">
+        <item>S1 Sastra Inggris, S1 Ilmu Sejarah, S1 Sastra Arab, S2 Ilmu Linguistik, S3 Linguistik</item>
+        <item>S1 Hukum Keperdataan, S1 Hukum Tata Negara, S1 Hukum Pidana, S1 Administrasi Negara, S1 Hukum Internasional, S1 Hukum dan Masyarakat, S1 Hukum Acara, S2 Hukum Bisnis, S2 Hukum Ekonomi Islam, S2 Hukum Kebijakan Publik, S2 Hukum Kesehatan, S2 Hukum Pidana Ekonomi, S3 Ilmu Hukum</item>
+        <item>S1 AKUNTANSI, S1 MANAJEMEN, S1 BISNIS DIGITAL, S1 EKONOMI PEMBANGUNAN</item>
+        <item>S1 Administrasi Negara, S1 Hubungan Internasional, S1 Ilmu Komunikasi, S1 Sosiologi, S2 Komunikasi, S2 Administrasi Publik, S2 Sosiologi, S3 Ilmu Komunikasi</item>
+        <item>S1 Kedokteran</item>
+        <item>S1 Pengelolaan Hutan, S1 Ilmu Tanah, S1 Ilmu Teknologi Pangan, S1 Penyuluhan dan Komunikasi Pertanian, S1 Agroteknologi, S1 Agribisnis</item>
+        <item>Teknik Sipil, S1 Arsitektur, S1 Teknik Mesin, S1 Teknik Industri, S1 Teknik Kimia, S1 Perencanaan Wilayah dan Kota, S1 Teknik Elektro, S1 Program Profesi Insinyur</item>
+        <item>Pendidikan Bahasa dan Sastra Indonesia, Pendidikan Ekonomi, Pendidikan Fisika, Pendidikan Luar Biasa, Pendidikan Pancasila dan Kewarganegaraan, Pendidikan Sejarah, Pendidikan Teknik Mesin, Pendidikan Administrasi Perkantoran, Pendidikan Guru Sekolah Dasar (Solo), Pendidikan Guru Sekolah Dasar (Kebumen), Pendidikan Teknik Bangunan, Pendidikan Matematika, Pendidikan Sosial Antropologi, Pendidikan Akuntansi, Bimbingan dan Konseling, Pendidikan Guru PAUD, Pendidikan Kimia, Pendidikan Bahasa Jawa, Pendidikan Seni Rupa, Pendidikan Biologi, Pendidikan Geografi, Pendidikan Bahasa Inggris, Pendidikan Teknik Informatika dan Komputer, Pendidikan Ilmu Pengetahuan Alam, Teknologi Pendidikan</item>
+        <item>S1 Matematika, S1 Fisika, S1 Kimia, S1 Biologi, S1 Farmasi, S1 Statistika, S1 Ilmu Lingkungan</item>
+        <item>S1 Desain Komunikasi Visual, S1 Desain Interior, S1 Kriya Tekstil, S1 Seni Rupa Murni, S2 Seni Rupa</item>
+        <item>Pendidikan Jasmani Kesehatan dan Rekreasi, Pendidikan Kepelatihan Olahraga</item>
+        <item>S1 Informatika, S1 Sains Data</item>
+        <item>S1 Psikologi, S2 Magister Sains, S2 Profesi Psikolog</item>
+        <item>D4 Keselamatan dan Kesehatan Kerja, D4 Keperawatan Anestesiologi, D4 Demografi dan Pencatatan Sipil, D3 Profil Image, D3 Budidaya Ternak, D3 Teknik Informatika, D3 Teknologi Hasil Pertanian PSDKU, D3 Akuntansi PSDKU, D3 Kebidanan, D3 Perpustakaan, D3 Farmasi, D3 Agribisnis, D3 Akuntansi, D3 Teknologi Hasil Pertanian, D3 Usaha Perjalanan Wisata, D3 Keuangan Perbankan, D3 Manajemen Administrasi, D3 Komunikasi Terapan, D3 Manajemen Bisnis, D3 Teknik Mesin, D3 Desain Komunikasi Visual, D3 Manajemen Pemasaran, D3 Bahasa Mandarin, D3 Manajemen Perdagangan, D3 Teknik Sipil, D3 Bahasa Inggris, D3 Perpajakan, D3 Teknik Kimia</item>
+    </string-array>
+
     <string-array name="nama_informasi_pengeluaran">
         <item>Espresso</item>
         <item>Americano</item>
@@ -209,120 +226,119 @@
     </string-array>
 
     <string-array name="service_terms">
-    <item>
-        Jaringan Wireless di Lingkungan UNS\n
-        Jaringan Wireless dengan SSID UNS Solo atau Eduroam\n
-    </item>
         <item>
-        Permohonan Webservice Baru
-    </item>
+            Jaringan Wireless di Lingkungan UNS\nJaringan Wireless dengan SSID UNS Solo atau Eduroam\n
+        </item>
         <item>
-        Maintenance/Perbaikan Web Service
-    </item>
+            Permohonan Webservice Baru
+        </item>
         <item>
-        Pengajuan surat dengan detail
-        Nama Domain
-        Informasi PIC Domain
-        Nama
-        Nip/Nim
-        Email SSO
-        No HP aktif
-    </item>
+            Maintenance/Perbaikan Web Service
+        </item>
         <item>
-        Lembaga yang mengajukan di bawah UNS
-        Kegiatan yang disuport adalah kegiatan yang diselenggarakan oleh UNS.
-    </item>
+            Pengajuan surat dengan detail\n
+            Nama Domain\n
+            Informasi PIC Domain\n
+            Nama\n
+            Nip/Nim\n
+            Email SSO\n
+            No HP aktif\n
+        </item>
         <item>
-        Email UNS berafiliasi ke Google License UNS.
-    </item>
+            Lembaga yang mengajukan di bawah UNS\n
+            Kegiatan yang disuport adalah kegiatan yang diselenggarakan oleh UNS.\n
+        </item>
         <item>
-        Untuk email @student.uns.ac.id
-        - Memiliki NIM
-        - Memiliki PIN terakhir (semester saat membuat Email) dari Bank
-        - Memiliki nomor HP yg teregister di Siakad
-        - Nomor HP dapat dikirimi Whatsapp
+            Email UNS berafiliasi ke Google License UNS.
+        </item>
+        <item>
+            Untuk email @student.uns.ac.id\n
+            - Memiliki NIM\n
+            - Memiliki PIN terakhir (semester saat membuat Email) dari Bank\n
+            - Memiliki nomor HP yg teregister di Siakad\n
+            - Nomor HP dapat dikirimi Whatsapp\n
 
-        Untuk email @staff.uns.ac.id
-        - Memiliki NIP terdaftar di simpeg.uns.ac.id
-        - Nomor HP teregister di simpeg
-        - Nomor HP dapat dikirimi Whatsapp
-    </item>
+            Untuk email @staff.uns.ac.id\n
+            - Memiliki NIP terdaftar di simpeg.uns.ac.id\n
+            - Nomor HP teregister di simpeg\n
+            - Nomor HP dapat dikirimi Whatsapp\n
+        </item>
         <item>
-        1. Layanan Microsoft Office 365 itu ada 2 jenis : layanan email 365 dengan free feature (meliputi one drive, microsoft office web version) dan layanan email 365 dengan free feature + aplikasi desktop microsoft office (jumlahnya terbatas 200 lisensi yang hanya untuk staf saja);
-        2. Email yang disetujui hanya @staff (@student hanya dapat free feature), sedangkan @unit/@mail tidak perkenankan;
-        3. Menyertakan NIP yang sesuai dengan email @staff (NIM mahasiswa untuk @student).
-    </item>
+            1. Layanan Microsoft Office 365 itu ada 2 jenis : layanan email 365 dengan free feature (meliputi one drive, microsoft office web version) dan layanan email 365 dengan free feature + aplikasi desktop microsoft office (jumlahnya terbatas 200 lisensi yang hanya untuk staf saja);\n
+            2. Email yang disetujui hanya @staff (@student hanya dapat free feature), sedangkan @unit/@mail tidak perkenankan;\n
+            3. Menyertakan NIP yang sesuai dengan email @staff (NIM mahasiswa untuk @student).\n
+        </item>
     </string-array>
 
     <string-array name="service_procedure">
-    <item>
-        1. Unit Kerja Mengajukan Keluhan jaringan\n
-        2. TIK Menerima keluhan jaringan \n
-        3. TIK menganalisis Permasalahan \n
-        4. TIK Mengirimkan analisis permasalahan Solusi dan menyelesaikan jika itu permasalahan ada di TIK \n
-        5. Unit Kerja Menerima analisis permasalahan dan Solusi \n
-        6. Unit Kerja Menganalisis anggaran untuk kebutuhan untuk penyelesaian masalah jika diperlukan \n
-        7. Unit Kerja Koordinasi dengan TIK untuk pembagian tugas \n
-        8. TIK Menerima pembagian tugas \n
-        9. Unit Kerja Melakukan pengadaan baik barang maupun SDM Teknis jika dibutuhkan \n
-        10. Unit Kerja Melaporkan ke TIK jika sdh selesai (solved) \n
-    </item>
         <item>
-        1. Unit Kerja Mengajukan Permohonan webservice disertai spesifikasi Web, kebutuhan storage per tahun disertai email PIC Web.
-        2. TIK Menganalisis kebutuhan, menentukan authentifikasi webservice
-        3. TIK Development webservice sesuai kebutuhan
-        4. TIK Menguji coba webservice sesuai kebutuhan
-        5. TIK Mengirimkan akun sesuai kebutuhan ke email PIC
-        6. Unit Kerja Menerima Akun Web melalui email
-        7. Unit Kerja Memanfaatkan webservice sesuai kebutuhan
-        8. Unit Kerja Melakukan pengujian implementasi webservice
-    </item>
+            1. Unit Kerja Mengajukan Keluhan jaringan\n
+            2. TIK Menerima keluhan jaringan \n
+            3. TIK menganalisis Permasalahan \n
+            4. TIK Mengirimkan analisis permasalahan Solusi dan menyelesaikan jika itu permasalahan ada di TIK \n
+            5. Unit Kerja Menerima analisis permasalahan dan Solusi \n
+            6. Unit Kerja Menganalisis anggaran untuk kebutuhan untuk penyelesaian masalah jika diperlukan \n
+            7. Unit Kerja Koordinasi dengan TIK untuk pembagian tugas \n
+            8. TIK Menerima pembagian tugas \n
+            9. Unit Kerja Melakukan pengadaan baik barang maupun SDM Teknis jika dibutuhkan \n
+            10. Unit Kerja Melaporkan ke TIK jika sdh selesai (solved) \n
+        </item>
         <item>
-        1. Unit Kerja Mengajukan Keluhan webservice
-        2. TIK Menerima keluhan webservice
-        3. TIK Menganalisis Permasalahan
-        4. TIK Mengirimkan analisis permasalahan Solusi dan menyelesaikan jika itu permasalahan ada di TIK
-        5. Unit Kerja Menerima analisis permasalahan dan Solusi
-        6. Unit Kerja Melakukan tindak lanjut atas analisis dan solusi yg diberikan.
-        7. Unit Kerja Melakukan ujicoba tindak lanjut.
-        8. Unit Kerja Melaporkan jika webservice sudah bisa digunakan scr normal.
-    </item>
+              1. Unit Kerja Mengajukan Permohonan webservice disertai spesifikasi Web, kebutuhan storage per tahun disertai email PIC Web.\n
+            2. TIK Menganalisis kebutuhan, menentukan authentifikasi webservice\n
+            3. TIK Development webservice sesuai kebutuhan\n
+            4. TIK Menguji coba webservice sesuai kebutuhan\n
+            5. TIK Mengirimkan akun sesuai kebutuhan ke email PIC\n
+            6. Unit Kerja Menerima Akun Web melalui email\n
+            7. Unit Kerja Memanfaatkan webservice sesuai kebutuhan\n
+            8. Unit Kerja Melakukan pengujian implementasi webservice\n
+        </item>
         <item>
-        1. Dalam waktu 14 hari setelah menerima informasi email, lisensi harus segera diaktifkan
-        2. Menggunakan tema "Royal Elementor Kit" by WP Royal dan menghapus tema lain yang tidak dipakai. jika terdeteksi tidak menggunakan tema tersebut maka lisensi akan dinonaktifkan
-        3. Website harus selalu di update. apabila diketahui website offline selama lebih dari 1 minggu, maka TIK akan menonaktifkan lisensi
-        4. Pengajuan lisensi hanya berlaku 1 kali dan tidak dapat digunakan untuk menjadi dasar untuk pengaktifan kembali apabila lisensi sudah di nonaktifkan
-    </item>
+              1. Unit Kerja Mengajukan Keluhan webservice\n
+            2. TIK Menerima keluhan webservice\n
+            3. TIK Menganalisis Permasalahan\n
+            4. TIK Mengirimkan analisis permasalahan Solusi dan menyelesaikan jika itu permasalahan ada di TIK\n
+            5. Unit Kerja Menerima analisis permasalahan dan Solusi\n
+            6. Unit Kerja Melakukan tindak lanjut atas analisis dan solusi yg diberikan.\n
+            7. Unit Kerja Melakukan ujicoba tindak lanjut.\n
+            8. Unit Kerja Melaporkan jika webservice sudah bisa digunakan scr normal.\n
+        </item>
         <item>
-        1. Mengajukan surat
-        2. Diverifikasi oleh admin
-        3. Didisposisikan oleh Pimpinan ke Staff
-        4. Dieksekusi oleh Staff
-        5. Pemohon mendapatkan notifikasi email selesai
-        6. Pemohon mendapatkan email mengenai akun email yang dimohon
-    </item>
+              1. Dalam waktu 14 hari setelah menerima informasi email, lisensi harus segera diaktifkan\n
+            2. Menggunakan tema "Royal Elementor Kit" by WP Royal dan menghapus tema lain yang tidak dipakai. jika terdeteksi tidak menggunakan tema tersebut maka lisensi akan dinonaktifkan\n
+            3. Website harus selalu di update. apabila diketahui website offline selama lebih dari 1 minggu, maka TIK akan menonaktifkan lisensi\n
+            4. Pengajuan lisensi hanya berlaku 1 kali dan tidak dapat digunakan untuk menjadi dasar untuk pengaktifan kembali apabila lisensi sudah di nonaktifkan\n
+        </item>
         <item>
-        1. Pemohon mengajukan surat
-        2. Proses Review oleh tim admin
-        3. Proses pengajuan pengeluaran dari blokir
-        4. Informasi ke pemohon untuk mencoba kembali
-    </item>
+              1. Mengajukan surat\n
+            2. Diverifikasi oleh admin\n
+            3. Didisposisikan oleh Pimpinan ke Staff\n
+            4. Dieksekusi oleh Staff\n
+            5. Pemohon mendapatkan notifikasi email selesai\n
+            6. Pemohon mendapatkan email mengenai akun email yang dimohon\n
+        </item>
         <item>
-        1. Mengajukan via profil.uns.ac.id
-        2. memasukkan NIP atau Email sesuai form online di profil.uns.ac.id
-        3. Mengisikan 4 digit terakhir nomor HP yg telah teregister sesuai syarat
-        4. Menerima Token melalui Whatsapp
-        5. Mengisikan Token dalam aplikasi profil.uns.ac.id
-        6. Mengisikan usulan username (buat yg mudah diingat)
-        7. Mengisikan Password (Buat yg passphrase, tidak mudah ditebak tapi mudah diingat)
-        8. Klik tombol Aktifkan email
-    </item>
+              1. Pemohon mengajukan surat\n
+            2. Proses Review oleh tim admin\n
+            3. Proses pengajuan pengeluaran dari blokir\n
+            4. Informasi ke pemohon untuk mencoba kembali\n
+        </item>
         <item>
-        1. Mengajukan permohonan surat
-        2. Tim administrasi mereview surat
-        3. Tim Teknis mengekseskusi lisensi
-        4. Pemohon mendapatkan notifikasi
-    </item>
+              1. Mengajukan via profil.uns.ac.id\n
+            2. memasukkan NIP atau Email sesuai form online di profil.uns.ac.id\n
+            3. Mengisikan 4 digit terakhir nomor HP yg telah teregister sesuai syarat\n
+            4. Menerima Token melalui Whatsapp\n
+            5. Mengisikan Token dalam aplikasi profil.uns.ac.id\n
+            6. Mengisikan usulan username (buat yg mudah diingat)\n
+            7. Mengisikan Password (Buat yg passphrase, tidak mudah ditebak tapi mudah diingat)\n
+            8. Klik tombol Aktifkan email\n
+        </item>
+        <item>
+              1. Mengajukan permohonan surat\n
+            2. Tim administrasi mereview surat\n
+            3. Tim Teknis mengekseskusi lisensi\n
+            4. Pemohon mendapatkan notifikasi\n
+        </item>
     </string-array>
 
     <string-array name="service_time">
@@ -337,14 +353,14 @@
     </string-array>
 
     <string-array name="service_cost">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>Rp 0</item>
+        <item>Rp 0</item>
+        <item>Rp 0</item>
+        <item>Rp 0</item>
+        <item>Rp 0</item>
+        <item>Rp 0</item>
+        <item>Rp 0</item>
+        <item>Rp 0</item>
     </string-array>
     <!--<<<<<<< HEAD-->
     <!--    Service Data End-->
@@ -422,4 +438,6 @@
     <string name="seleksi_penerimaan_mahasiswa_baru">Seleksi Penerimaan Mahasiswa Baru</string>
     <string name="pintu_masuk_ke_universitas_sebelas_maret_surakarta_uns_di_sini_anda_akan_mendapatkan_semua_informasi_mengenai_tata_cara_masuk_untuk_kuliah_di_uns">Pintu masuk ke Universitas Sebelas Maret Surakarta (UNS), di sini anda akan mendapatkan semua informasi mengenai tata cara masuk untuk kuliah di UNS.</string>
     <string name="lihat_pdf">Lihat PDF ➞</string>
+    <string name="buat_permintaan">Buat Permintaan</string>
+    <string name="buat_keluhan">Buat Keluhan</string>
 </resources>

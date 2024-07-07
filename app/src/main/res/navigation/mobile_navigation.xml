@@ -12,15 +12,8 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_informasi_keuangan"
-        android:name="com.example.aplikasikeuanganuns.ui.informasikeuangan.InformasiKeuanganFragment"
-        android:label="@string/informasi_keuangan"
-        tools:layout="@layout/fragment_informasi_keuangan">
-    </fragment>
-
-    <fragment
         android:id="@+id/nav_faculty"
-        android:name="com.example.aplikasikeuanganuns.ui.fakultasdanjurusan.FacultyFragment"
+        android:name="com.example.administrasiuns.ui.fakultasdanjurusan.FacultyFragment"
         android:label="Fakultas"
         tools:layout="@layout/fragment_faculty">
         <action
@@ -32,7 +25,18 @@
         android:id="@+id/detailFacultyFragment"
         android:name="com.example.administrasiuns.ui.fakultasdanjurusan.DetailFacultyFragment"
         android:label="Detail Fakultas"
-        tools:layout="@layout/fragment_detail_faculty" />
+        tools:layout="@layout/fragment_detail_faculty">
+        <action
+            android:id="@+id/action_detailFacultyFragment_toMajorFragment"
+            app:destination="@id/majorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/majorFragment"
+        android:name="com.example.administrasiuns.ui.fakultasdanjurusan.MajorFragment"
+        android:label="Daftar Jurusan"
+        tools:layout="@layout/fragment_major" />
+
 
     <fragment
         android:id="@+id/nav_registration"

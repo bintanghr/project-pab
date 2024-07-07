@@ -1,4 +1,4 @@
-package com.example.aplikasikeuanganuns.ui.fakultasdanjurusan
+package com.example.administrasiuns.ui.fakultasdanjurusan
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -33,9 +33,10 @@ class FacultyFragment : Fragment() {
         val dataDesc = resources.getStringArray(R.array.faculty_description)
         val dataImg = resources.obtainTypedArray(R.array.faculty_img)
         val dataUrl = resources.getStringArray(R.array.faculty_url)
+        val dataMajor = resources.getStringArray(R.array.faculty_major)
         val facultyList = ArrayList<Faculty>()
         for (i in dataName.indices) {
-            val faculty = Faculty(dataName[i], dataTotalMajor[i], dataDesc[i], dataImg.getResourceId(i, -1), dataUrl[i])
+            val faculty = Faculty(dataName[i], dataTotalMajor[i], dataDesc[i], dataImg.getResourceId(i, -1), dataUrl[i], dataMajor[i])
             facultyList.add(faculty)
         }
         return facultyList

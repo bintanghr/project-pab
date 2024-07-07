@@ -1,4 +1,4 @@
-package com.example.aplikasikeuanganuns.ui.fakultasdanjurusan
+package com.example.administrasiuns.ui.fakultasdanjurusan
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,7 +27,7 @@ class ListFacultyAdapter(private val listMenu: ArrayList<Faculty>) :
     override fun getItemCount(): Int = listMenu.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (facultyName, totalMajor, desc, img, url) = listMenu[position]
+        val (facultyName, totalMajor, desc, img, url, major) = listMenu[position]
         val majorText = "$totalMajor Program Studi"
         holder.tvPrice.text = majorText
         holder.tvName.text = facultyName
@@ -40,6 +40,7 @@ class ListFacultyAdapter(private val listMenu: ArrayList<Faculty>) :
                 putString(DetailFacultyFragment.EXTRA_DESC, desc)
                 putInt(DetailFacultyFragment.EXTRA_IMG, img)
                 putString(DetailFacultyFragment.EXTRA_URL, url)
+                putString(DetailFacultyFragment.EXTRA_MAJOR, major)
             }
             holder.itemView.findNavController().navigate(R.id.action_facultyFragment_to_detailFacultyFragment, bundle)
         }

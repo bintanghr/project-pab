@@ -10,6 +10,8 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import com.example.administrasiuns.R
 
 
@@ -32,6 +34,7 @@ class DetailFacultyFragment : Fragment() {
         val tvFacultyDesc : TextView = view.findViewById(R.id.tv_faculty_desc)
         val btnWebsite : Button = view.findViewById(R.id.btn_website)
         var websiteUrl = ""
+        var major : String? = ""
 
         arguments?.let {
             val img = it.getInt(EXTRA_IMG, 0)
@@ -39,6 +42,7 @@ class DetailFacultyFragment : Fragment() {
             val totalMajor = it.getString(EXTRA_TOTAL_MAJOR)
             val facultyDesc = it.getString(EXTRA_DESC)
             val url = it.getString(EXTRA_URL)
+            major = it.getString(EXTRA_MAJOR)
             val totalMajorText = "$totalMajor jurusan "
 
             imgFaculty.setImageResource(img)
@@ -52,6 +56,14 @@ class DetailFacultyFragment : Fragment() {
             val websiteIntent = Intent(Intent.ACTION_VIEW, Uri.parse(websiteUrl))
             startActivity(websiteIntent)
         }
+
+        tvTotalMajor.setOnClickListener{
+            val bundle = Bundle().apply {
+                putString(MajorFragment.EXTRA_MAJOR, major)
+            }
+
+            findNavController().navigate(R.id.action_detailFacultyFragment_toMajorFragment, bundle)
+        }
     }
     companion object {
         const val EXTRA_NAME = "extra_name"
@@ -59,5 +71,6 @@ class DetailFacultyFragment : Fragment() {
         const val EXTRA_DESC = "extra_desc"
         const val EXTRA_IMG = "extra_img"
         const val EXTRA_URL = "extra_url"
+        const val EXTRA_MAJOR = "extra_major"
     }
 }
