@@ -1,5 +1,6 @@
 package com.example.administrasiuns.ui.penerimaan
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -29,6 +30,7 @@ class PendaftaranPenerimaanFragment : Fragment() {
         return binding.root
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -39,6 +41,10 @@ class PendaftaranPenerimaanFragment : Fragment() {
         binding.recyclerView.layoutManager =
             LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         binding.recyclerView.adapter = adapter
+        binding.recyclerView.setOnTouchListener{ v, event ->
+            v.parent.requestDisallowInterceptTouchEvent(true)
+            false
+        }
 
         // Set click listener for "Lihat PDF" button
         binding.lihatPdfButton.setOnClickListener {

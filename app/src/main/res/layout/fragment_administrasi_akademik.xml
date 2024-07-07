@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Panel Administrasi Akademik"
+        android:text="@string/panel_administrasi_akademik"
         android:textSize="22sp"
         android:textStyle="bold"
         android:layout_marginTop="30dp"
@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Universitas Sebelas Maret"
+        android:text="@string/universitas_sebelas_maret"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
@@ -39,6 +39,7 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:layout_marginTop="30dp"
+        android:contentDescription="@string/universitas_sebelas_maret"
         android:layout_gravity="center"/>
 
     <androidx.recyclerview.widget.RecyclerView

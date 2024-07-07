@@ -414,4 +414,12 @@
 
     <string name="facility_image">Gambar Fasilitas</string>
     <string name="fasilitas">Fasilitas</string>
+    <string name="universitas_sebelas_maret">Universitas Sebelas Maret</string>
+    <string name="panel_administrasi_akademik">Panel Administrasi Akademik</string>
+    <string name="jenjang">Jenjang</string>
+    <string name="gambar_fasilitas_kampus_uns">Gambar Fasilitas Kampus UNS</string>
+    <string name="fasilitas_kampus_uns">Fasilitas Kampus UNS</string>
+    <string name="seleksi_penerimaan_mahasiswa_baru">Seleksi Penerimaan Mahasiswa Baru</string>
+    <string name="pintu_masuk_ke_universitas_sebelas_maret_surakarta_uns_di_sini_anda_akan_mendapatkan_semua_informasi_mengenai_tata_cara_masuk_untuk_kuliah_di_uns">Pintu masuk ke Universitas Sebelas Maret Surakarta (UNS), di sini anda akan mendapatkan semua informasi mengenai tata cara masuk untuk kuliah di UNS.</string>
+    <string name="lihat_pdf">Lihat PDF ➞</string>
 </resources>

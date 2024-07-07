@@ -7,8 +7,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.TextView
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.administrasiuns.R
 
 class DetailServiceFragment : Fragment() {
@@ -25,8 +26,6 @@ class DetailServiceFragment : Fragment() {
 
         val tvServiceName : TextView = view.findViewById(R.id.tv_service_name)
         val tvCost : TextView = view.findViewById(R.id.tv_cost)
-        val tvTerms : TextView = view.findViewById(R.id.tv_terms)
-        val tvProedure : TextView = view.findViewById(R.id.tv_procedure)
         val tvTime : TextView = view.findViewById(R.id.tv_time)
 //        val btnWebsite : Button = view.findViewById(R.id.btn_website)
 //        var websiteUrl = ""
@@ -40,10 +39,19 @@ class DetailServiceFragment : Fragment() {
 
             tvServiceName.text = serviceName
             tvCost.text = cost
-            tvTerms.text = terms
-            tvProedure.text = procedure
             tvTime.text = time
 //            websiteUrl = "https://$procedure.uns.ac.id/"
+
+            if (arguments !== null) {
+                val mainItems = listOf(
+                    MainItem("Syarat", terms),
+                    MainItem("Prosedur", procedure)
+                )
+
+                val recyclerView: RecyclerView = view.findViewById(R.id.recyclerView)
+                recyclerView.layoutManager = LinearLayoutManager(context)
+                recyclerView.adapter = MainAdapter(mainItems)
+            }
         }
 
 //        btnWebsite.setOnClickListener {
