@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:text="Daftar Program Studi"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:fontFamily="@font/poppins_bold"
         android:layout_gravity="center"
         android:layout_marginTop="20dp" />
 
@@ -18,8 +18,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Berikut ini adalah daftar list program studi yang ada di Universitas Sebelas Maret"
-        android:textSize="14sp"
-        android:textStyle="normal"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins_regular"
         android:textAlignment="center"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="5dp" />
@@ -28,8 +28,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Catatan:\n* Daya Tampung Total (Jalur SNBP, SNBT, dan SM UNS)\n** Daya Tampung Seleksi Mandiri UNS "
-        android:textSize="14sp"
-        android:textStyle="normal"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins_regular"
         android:layout_gravity="left"
         android:layout_marginHorizontal="10dp"
         android:layout_marginTop="40dp"
@@ -52,7 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:background="#009AAE"
+                android:background="#00a0e8"
                 android:layout_marginBottom="4dp">
 
                 <TextView
@@ -60,7 +60,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:text="No."
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
                     android:gravity="center"/>
 
                 <TextView
@@ -68,7 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:text="Nama Prodi"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
                     android:gravity="center"/>
 
                 <TextView
@@ -76,7 +78,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:text="Jenjang"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
                     android:gravity="center"/>
 
                 <TextView
@@ -84,7 +87,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:text="Akreditasi"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
                     android:gravity="center"/>
 
                 <TextView
@@ -92,7 +96,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:text="Akreditasi Internasional"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
                     android:gravity="center"/>
 
                 <TextView
@@ -100,7 +105,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:text="Daya Tampung"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
                     android:gravity="center"/>
             </LinearLayout>
 

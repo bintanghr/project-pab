@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/jenjang"
-        android:textSize="18sp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_bold"
         android:textColor="@android:color/white"
         android:layout_centerInParent="true" />
-
 </RelativeLayout>

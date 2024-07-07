@@ -11,6 +11,7 @@
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppins_regular"
         android:gravity="center"/>
 
     <TextView
@@ -18,13 +19,15 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:gravity="left"/>
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="start"/>
 
     <TextView
         android:id="@+id/jenjang"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppins_regular"
         android:gravity="center"/>
 
     <TextView
@@ -32,6 +35,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppins_regular"
         android:gravity="center"/>
 
     <TextView
@@ -39,6 +43,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppins_regular"
         android:gravity="center"/>
 
     <TextView
@@ -46,5 +51,6 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppins_regular"
         android:gravity="center"/>
 </LinearLayout>
