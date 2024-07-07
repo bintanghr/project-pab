@@ -1,0 +1,51 @@
+<!-- item_program.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@drawable/item_background"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/nomor"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/namaProdi"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/jenjang"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/akreditasi"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/akreditasiInternasional"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/dayaTampung"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"/>
+</LinearLayout>
