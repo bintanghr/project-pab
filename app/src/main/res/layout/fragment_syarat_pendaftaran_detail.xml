@@ -21,8 +21,8 @@
             android:textSize="24sp"
             android:textStyle="bold"
             android:gravity="center"
-            android:layout_marginBottom="16dp"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_bold"/>
 
         <!-- Subtitle -->
         <TextView
@@ -32,8 +32,9 @@
             android:textSize="18sp"
             android:textStyle="italic"
             android:gravity="center"
-            android:layout_marginBottom="16dp"
-            android:textColor="@color/black" />
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
 
         <!-- Card for Syarat Pendaftaran -->
         <androidx.cardview.widget.CardView
@@ -58,7 +59,8 @@
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/poppins_semi_bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -68,7 +70,8 @@
                     android:textColor="@color/black"
                     android:paddingStart="8dp"
                     android:paddingBottom="8dp"
-                    tools:ignore="RtlSymmetry" />
+                    tools:ignore="RtlSymmetry"
+                    android:fontFamily="@font/poppins_regular"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -78,7 +81,8 @@
                     android:textColor="@color/black"
                     android:paddingStart="8dp"
                     android:paddingBottom="8dp"
-                    tools:ignore="RtlSymmetry" />
+                    tools:ignore="RtlSymmetry"
+                    android:fontFamily="@font/poppins_regular"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -88,7 +92,8 @@
                     android:textColor="@color/black"
                     android:paddingStart="8dp"
                     android:paddingBottom="8dp"
-                    tools:ignore="RtlSymmetry" />
+                    tools:ignore="RtlSymmetry"
+                    android:fontFamily="@font/poppins_regular"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -98,7 +103,8 @@
                     android:textColor="@color/black"
                     android:paddingLeft="8dp"
                     android:paddingBottom="8dp"
-                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+                    tools:ignore="RtlHardcoded,RtlSymmetry"
+                    android:fontFamily="@font/poppins_regular"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -118,7 +124,8 @@
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/poppins_semi_bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -128,7 +135,8 @@
                     android:textColor="@color/black"
                     android:paddingLeft="8dp"
                     android:paddingBottom="8dp"
-                    tools:ignore="MissingPrefix,RtlHardcoded,RtlSymmetry" />
+                    tools:ignore="MissingPrefix,RtlHardcoded,RtlSymmetry"
+                    android:fontFamily="@font/poppins_regular"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -138,7 +146,8 @@
                     android:textColor="@color/black"
                     android:paddingLeft="8dp"
                     android:paddingBottom="8dp"
-                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+                    tools:ignore="RtlHardcoded,RtlSymmetry"
+                    android:fontFamily="@font/poppins_regular"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -148,7 +157,8 @@
                     android:textColor="@color/black"
                     android:paddingLeft="8dp"
                     android:paddingBottom="16dp"
-                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+                    tools:ignore="RtlHardcoded,RtlSymmetry"
+                    android:fontFamily="@font/poppins_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>

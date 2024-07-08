@@ -23,7 +23,7 @@
             android:gravity="center"
             android:textColor="@color/black"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp" />
+            android:fontFamily="@font/poppins_bold"/>
 
         <!-- Subtitle -->
         <TextView
@@ -34,8 +34,9 @@
             android:textStyle="italic"
             android:textAlignment="center"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="24dp"
-            android:textColor="@color/black" />
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
 
         <!-- Step 1 -->
         <androidx.cardview.widget.CardView
@@ -58,7 +59,8 @@
                     android:text="@string/step_1"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_semi_bold"/>
 
                 <TextView
                     android:id="@+id/text_step1"
@@ -69,7 +71,8 @@
                     android:layout_marginTop="4dp"
                     android:textColor="@color/black"
                     android:autoLink="web"
-                    android:linksClickable="true" />
+                    android:linksClickable="true"
+                    android:fontFamily="@font/poppins_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -94,7 +97,8 @@
                     android:text="@string/step_2"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_semi_bold"/>
 
                 <TextView
                     android:id="@+id/text_step2"
@@ -105,7 +109,8 @@
                     android:layout_marginTop="4dp"
                     android:textColor="@color/black"
                     android:autoLink="web"
-                    android:linksClickable="true" />
+                    android:linksClickable="true"
+                    android:fontFamily="@font/poppins_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -131,7 +136,8 @@
                     android:text="@string/step_3"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_semi_bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -139,7 +145,8 @@
                     android:text="@string/perubahan_ketentuan_tentang_pelaksanaan_seleksi_mandiri_uns_tahun_2024_akan_diatur_dan_diberitahukan_kemudian"
                     android:textSize="16sp"
                     android:layout_marginTop="4dp"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -164,7 +171,8 @@
                     android:text="@string/step_4"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_semi_bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -172,7 +180,8 @@
                     android:text="@string/biaya_pendidikan_mahasiswa_baru_yang_diterima_melalui_seleksi_mandiri_uns_terdiri_atas_uang_kuliah_tunggal_ukt_dan_sumbangan_pengembangan_institusi_spi"
                     android:textSize="16sp"
                     android:layout_marginTop="4dp"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_regular"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -180,7 +189,8 @@
                     android:text="@string/uang_kuliah_tunggal_dipungut_per_semester_sampai_selesai_masa_studi_nominal_ukt_bervariasi_untuk_masing_masing_program_studi"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_regular"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -188,7 +198,8 @@
                     android:text="@string/sumbangan_pengembangan_institusi_dipungut_sekali_selama_studi_pada_awal_tahun_kuliah_dengan_pembayaran_dapat_diangsur_dua_kali_nominal_spi_bervariasi_untuk_setiap_program_studi"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_regular"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -196,7 +207,8 @@
                     android:text="@string/biaya_pendidikan_bagi_pemegang_kip_k_mengikuti_ketentuan_yang_berlaku"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
