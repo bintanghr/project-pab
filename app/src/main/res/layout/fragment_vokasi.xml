@@ -1,14 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.penerimaan.VokasiFragment">
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- Title -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Program Studi"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
 
-</FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berikut ini adalah daftar list program studi yang ada di Universitas Sebelas Maret"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins_regular"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catatan:\n* Daya Tampung Total (Jalur SNBP, SNBT, dan SM UNS)\n** Daya Tampung Seleksi Mandiri UNS "
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- HorizontalScrollView for table -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header Layout -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="#00a0e8"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="No."
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Nama Prodi"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Jenjang"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Akreditasi"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Akreditasi Internasional"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Daya Tampung"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

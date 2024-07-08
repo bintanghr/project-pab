@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1021950027268",
+    "project_id": "databasepab-b94e8",
+    "storage_bucket": "databasepab-b94e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021950027268:android:7010a5430fdb9758c53751",
+        "android_client_info": {
+          "package_name": "com.example.administrasiuns"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByWxFeqntbbfJ49lOXrSOEA_tKv-v5jO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021950027268:android:84d8abcdee1999a8c53751",
+        "android_client_info": {
+          "package_name": "com.pab.testingpab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByWxFeqntbbfJ49lOXrSOEA_tKv-v5jO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

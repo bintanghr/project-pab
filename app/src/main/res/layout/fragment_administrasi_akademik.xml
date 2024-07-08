@@ -9,8 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/panel_administrasi_akademik"
-        android:textSize="22sp"
-        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_bold"
         android:layout_marginTop="30dp"
         android:layout_marginHorizontal="0dp"
         android:background="@drawable/blue_rounded_background"
@@ -22,8 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/universitas_sebelas_maret"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_bold"
         android:layout_marginTop="10dp"
         android:layout_marginHorizontal="0dp"
         android:background="@drawable/blue_rounded_background"
@@ -46,7 +46,7 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="30dp"
+        android:layout_marginTop="30dp"
         android:clipToPadding="false" />
 
 </LinearLayout>
