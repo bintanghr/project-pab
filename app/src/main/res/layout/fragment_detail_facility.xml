@@ -18,7 +18,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:paddingHorizontal="16dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="26sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_semi_bold" />
 
             <ImageView
                 android:id="@+id/imageViewFacility"
@@ -31,17 +41,17 @@
                 android:id="@+id/textViewDetail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:justificationMode="inter_word"
                 android:layout_marginTop="16dp"
-                android:textSize="18sp"
-                tools:targetApi="o" />
+                android:textSize="18sp" />
 
 <!--            <Button-->
 <!--                android:id="@+id/buttonBack"-->
 <!--                android:layout_width="wrap_content"-->
 <!--                android:layout_height="wrap_content"-->
 <!--                android:text="Back"-->
-<!--                android:layout_marginTop="16dp" />-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:backgroundTint="@color/light_blue"-->
+<!--                android:textColor="@android:color/white" />-->
 
         </LinearLayout>
     </ScrollView>

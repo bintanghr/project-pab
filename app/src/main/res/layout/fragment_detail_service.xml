@@ -79,6 +79,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="16dp"
             android:backgroundTint="#3577f1"
+            android:textSize="16sp"
             android:fontFamily="@font/poppins_semi_bold"
             android:textAllCaps="false"
             android:text="@string/buat_permintaan" />
@@ -89,6 +90,8 @@
             app:layout_constraintTop_toBottomOf="@id/btn_permintaan"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
             android:backgroundTint="#f06548"
             android:fontFamily="@font/poppins_semi_bold"
             android:textAllCaps="false"
