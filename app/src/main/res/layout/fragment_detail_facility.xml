@@ -41,6 +41,7 @@
                 android:id="@+id/textViewDetail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
                 android:layout_marginTop="16dp"
                 android:textSize="18sp" />
 

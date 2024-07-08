@@ -422,7 +422,7 @@
     <string name="lihat_detail"><u>lihat detail</u></string>
     <string name="aplikasi_administrasi_uns">Aplikasi Administrasi UNS</string>
     <string name="foto_universitas">foto universitas</string>
-    <string name="home_description">Selamat datang di aplikasi Administrasi Universitas Sebelas Maret (UNS). Aplikasi ini dirancang untuk memberikan kemudahan akses bagi seluruh civitas akademika UNS dalam memperoleh informasi dan layanan administrasi secara cepat dan efisien. Berikut adalah fitur-fitur utama yang tersedia dalam aplikasi ini:</string>
+    <string name="home_description">Selamat datang di aplikasi Administrasi Universitas Sebelas Maret (UNS). Aplikasi ini dirancang untuk memberikan kemudahan akses bagi seluruh civitas akademika UNS dalam memperoleh informasi dan layanan administrasi secara cepat dan efisien.</string>
     <string name="informasi_penerimaan">Informasi Penerimaan</string>
 
     <!--    REGISTRASI END-->
